@@ -3,7 +3,7 @@
 <h1 align="center">Awesome AI for Research</h1>
 
 <p align="center">
-<a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a> <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square" /></a> <img alt="entries: 50" src="https://img.shields.io/badge/entries-50-0f766e?style=flat-square" /> <img alt="benchmarks: 12" src="https://img.shields.io/badge/benchmarks-12-b45309?style=flat-square" /> <img alt="updated: 2026-03-31" src="https://img.shields.io/badge/updated-2026--03--31-475569?style=flat-square" /> <img alt="curation: curated" src="https://img.shields.io/badge/curation-curated-334155?style=flat-square" /> <img alt="coverage: benchmark-aware" src="https://img.shields.io/badge/coverage-benchmark--aware-7c3aed?style=flat-square" />
+<a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a> <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square" /></a> <img alt="entries: 50" src="https://img.shields.io/badge/entries-50-0f766e?style=flat-square" /> <img alt="benchmarks: 12" src="https://img.shields.io/badge/benchmarks-12-b45309?style=flat-square" /> <img alt="updated: 2026-04-01" src="https://img.shields.io/badge/updated-2026--04--01-475569?style=flat-square" /> <img alt="curation: curated" src="https://img.shields.io/badge/curation-curated-334155?style=flat-square" /> <img alt="coverage: benchmark-aware" src="https://img.shields.io/badge/coverage-benchmark--aware-7c3aed?style=flat-square" />
 </p>
 
 <p align="center">
@@ -76,11 +76,11 @@ Use this view when you want to find systems by the stage of research they most c
 <a id="by-role"></a>
 ## 🪜 Browse by Role
 
-This ladder separates human-dominated tools, human-in-the-loop collaborators, and AI-dominated systems.
+This ladder separates human-driven tools, human-in-the-loop collaborators, and AI-driven systems.
 
-1. [`L1 Tools · 18`](docs/views/by-intelligence-level.md#l1-tools) - Human dominates the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner.
+1. [`L1 Tools · 18`](docs/views/by-intelligence-level.md#l1-tools) - Human drives the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner.
 2. [`L2 Collaborators · 16`](docs/views/by-intelligence-level.md#l2-collaborators) - Human in the loop. The AI can advance multi-step work, but humans still steer, gate, or validate important decisions.
-3. [`L3 Systems · 16`](docs/views/by-intelligence-level.md#l3-systems) - AI dominates the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review.
+3. [`L3 Systems · 16`](docs/views/by-intelligence-level.md#l3-systems) - AI drives the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review.
 
 
 ---

@@ -82,7 +82,7 @@
     {
       "slug": "l1-tools",
       "label": "L1 Tools",
-      "description": "Human dominates the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner."
+      "description": "Human drives the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner."
     },
     {
       "slug": "l2-collaborators",
@@ -92,7 +92,7 @@
     {
       "slug": "l3-systems",
       "label": "L3 Systems",
-      "description": "AI dominates the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review."
+      "description": "AI drives the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review."
     }
   ],
   "sections": [

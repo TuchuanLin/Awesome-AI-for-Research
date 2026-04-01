@@ -32,9 +32,9 @@ This page defines the reader-facing taxonomy used across the repository. It is a
 
 | Level | Definition |
 | --- | --- |
-| `L1 Tools` | Human dominates the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner. |
+| `L1 Tools` | Human drives the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner. |
 | `L2 Collaborators` | Human in the loop. The AI can advance multi-step work, but humans still steer, gate, or validate important decisions. |
-| `L3 Systems` | AI dominates the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review. |
+| `L3 Systems` | AI drives the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review. |
 
 `self-evolving` is tracked as a tag; see [Self-Evolving Systems](views/self-evolving.md).
 

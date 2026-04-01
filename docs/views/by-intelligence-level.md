@@ -2,7 +2,7 @@
 
 # 🪜 Browse by Role
 
-This view makes the role ladder tangible, from human-dominated tools to AI-dominated systems.
+This view makes the role ladder tangible, from human-driven tools to AI-driven systems.
 
 `self-evolving` is tracked as a tag; see [Self-Evolving Systems](self-evolving.md).
 
@@ -15,7 +15,7 @@ This view makes the role ladder tangible, from human-dominated tools to AI-domin
 <a id="l1-tools"></a>
 ## L1 Tools
 
-Human dominates the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner.
+Human drives the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner.
 
 | Work | Details | External |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ Human in the loop. The AI can advance multi-step work, but humans still steer, g
 <a id="l3-systems"></a>
 ## L3 Systems
 
-AI dominates the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review.
+AI drives the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review.
 
 | Work | Details | External |
 | --- | --- | --- |
