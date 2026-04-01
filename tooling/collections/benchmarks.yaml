@@ -1,0 +1,252 @@
+[
+  {
+    "id": "scienceagentbench",
+    "title": "ScienceAgentBench",
+    "year": 2024,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark",
+      "Scientific Reasoning"
+    ],
+    "summary": "A task-level benchmark for evaluating language agents on authentic data-driven scientific discovery problems.",
+    "why_it_matters": "It is a high-signal anchor for checking whether scientific automation claims survive contact with real executable research tasks.",
+    "tags": [
+      "scientific-discovery",
+      "code-generation",
+      "evaluation-harness"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.05080",
+      "repo": "https://github.com/OSU-NLP-Group/ScienceAgentBench",
+      "benchmark": "https://osu-nlp-group.github.io/ScienceAgentBench/"
+    }
+  },
+  {
+    "id": "frontierscience",
+    "title": "FrontierScience",
+    "year": 2025,
+    "evidence": "Organization report",
+    "types": [
+      "Scientific Reasoning"
+    ],
+    "summary": "An expert-written benchmark for Olympiad-style and research-style scientific reasoning across physics, chemistry, and biology.",
+    "why_it_matters": "It keeps scientific reasoning visible as a first-class surface instead of collapsing all evaluation into coding or replication alone.",
+    "tags": [
+      "reasoning",
+      "physics-chemistry-biology",
+      "expert-authored"
+    ],
+    "links": {
+      "project": "https://openai.com/index/frontier-science/"
+    }
+  },
+  {
+    "id": "kernelbench",
+    "title": "KernelBench",
+    "year": 2025,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark for evaluating whether LLMs can write GPU kernels for machine learning workloads that are both functionally correct and practically efficient.",
+    "why_it_matters": "It is a high-signal benchmark anchor for the systems-performance side of AI-for-research because it measures whether generated kernels actually execute well rather than only looking plausible in code form.",
+    "tags": [
+      "gpu-kernels",
+      "code-generation",
+      "performance-evaluation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.10517",
+      "repo": "https://github.com/ScalingIntelligence/KernelBench",
+      "blog": "https://scalingintelligence.stanford.edu/blogs/kernelbench/"
+    }
+  },
+  {
+    "id": "mle-bench",
+    "title": "MLE-Bench",
+    "year": 2024,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark built from Kaggle competitions to measure how well AI agents perform at machine learning engineering.",
+    "why_it_matters": "It is one of the clearest benchmark anchors for the implementation and experimentation side of AI-for-research systems.",
+    "tags": [
+      "ml-engineering",
+      "kaggle",
+      "experimentation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.07095",
+      "repo": "https://github.com/openai/mle-bench",
+      "benchmark": "https://openai.com/index/mle-bench/"
+    }
+  },
+  {
+    "id": "tritonbench",
+    "title": "TritonBench",
+    "year": 2025,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark for evaluating whether LLMs can generate Triton operators that are correct and performant enough for realistic GPU programming workloads.",
+    "why_it_matters": "It gives the benchmark set a focused view of LLM-driven GPU operator generation, where runtime performance matters alongside functional correctness.",
+    "tags": [
+      "triton",
+      "gpu-operators",
+      "performance-evaluation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.14752",
+      "repo": "https://github.com/thunlp/TritonBench"
+    }
+  },
+  {
+    "id": "scientist-bench",
+    "title": "Scientist-Bench",
+    "year": 2025,
+    "evidence": "Technical report",
+    "types": [
+      "System Benchmark",
+      "Ideation & Discovery"
+    ],
+    "summary": "A benchmark surface introduced alongside AI-Researcher for assessing guided and open-ended autonomous AI research.",
+    "why_it_matters": "It is useful because it ties benchmark design directly to claims about autonomous AI research rather than only narrow subtask performance.",
+    "tags": [
+      "autonomous-research",
+      "guided-innovation",
+      "open-ended"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.18705",
+      "project": "https://autoresearcher.github.io/research.html"
+    }
+  },
+  {
+    "id": "paperbench",
+    "title": "PaperBench",
+    "year": 2025,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark for evaluating whether AI agents can replicate state-of-the-art AI research papers from scratch.",
+    "why_it_matters": "It is a strong benchmark anchor for end-to-end AI research because it tests paper understanding, implementation, execution, and rubric-based grading together.",
+    "tags": [
+      "paper-replication",
+      "rubric-based",
+      "ai-research"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.01848",
+      "repo": "https://github.com/openai/preparedness",
+      "benchmark": "https://openai.com/index/paperbench/"
+    }
+  },
+  {
+    "id": "astabench",
+    "title": "AstaBench",
+    "year": 2025,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark",
+      "Scientific Reasoning"
+    ],
+    "summary": "A holistic benchmark suite for scientific AI agents spanning literature understanding, code and execution, data analysis, and end-to-end discovery tasks.",
+    "why_it_matters": "It is a high-signal benchmark anchor for comparing research agents under a shared scientific environment, shared tools, and explicit cost reporting.",
+    "tags": [
+      "scientific-agents",
+      "holistic-suite",
+      "cost-aware"
+    ],
+    "links": {
+      "repo": "https://github.com/allenai/asta-bench",
+      "benchmark": "https://allenai.org/asta/bench",
+      "blog": "https://allenai.org/blog/astabench"
+    }
+  },
+  {
+    "id": "re-bench",
+    "title": "RE-Bench",
+    "year": 2024,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark suite for evaluating frontier AI R&D agents against human experts on realistic machine learning research engineering tasks.",
+    "why_it_matters": "It is a useful anchor for AI-for-research evaluation because it compares agent performance against human baselines on long-horizon research engineering work rather than only short synthetic tasks.",
+    "tags": [
+      "ai-r-d",
+      "human-comparison",
+      "long-horizon"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2411.15114",
+      "repo": "https://github.com/METR/RE-Bench"
+    }
+  },
+  {
+    "id": "discoverybench",
+    "title": "DiscoveryBench",
+    "year": 2024,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark",
+      "Ideation & Discovery"
+    ],
+    "summary": "A benchmark for data-driven hypothesis discovery that evaluates whether models can move from datasets and metadata to plausible discovery workflows and hypotheses.",
+    "why_it_matters": "It keeps open-ended discovery visible as a benchmark surface instead of collapsing evaluation into only coding or paper replication tasks.",
+    "tags": [
+      "hypothesis-discovery",
+      "data-driven",
+      "faceted-evaluation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.01725",
+      "repo": "https://github.com/allenai/discoverybench",
+      "benchmark": "https://huggingface.co/datasets/allenai/discoverybench"
+    }
+  },
+  {
+    "id": "lab-bench",
+    "title": "LAB-Bench",
+    "year": 2024,
+    "evidence": "Benchmark release",
+    "types": [
+      "Scientific Reasoning"
+    ],
+    "summary": "A biology-focused benchmark for research capabilities such as literature use, database retrieval, protocol troubleshooting, sequence manipulation, and figure or table reasoning.",
+    "why_it_matters": "It is a strong biology evaluation anchor because it measures practical research capabilities that sit between textbook science reasoning and full autonomous discovery.",
+    "tags": [
+      "biology-research",
+      "procedural-evaluation",
+      "literature-and-protocols"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.10362",
+      "repo": "https://github.com/Future-House/LAB-Bench",
+      "benchmark": "https://huggingface.co/datasets/futurehouse/lab-bench"
+    }
+  },
+  {
+    "id": "mlagentbench",
+    "title": "MLAgentBench",
+    "year": 2023,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A suite of end-to-end machine learning experimentation tasks for evaluating whether language agents can autonomously improve models through code, runs, and analysis.",
+    "why_it_matters": "It is an early but still relevant benchmark anchor for the experimentation-heavy side of AI-for-research systems, especially in machine learning research workflows.",
+    "tags": [
+      "ml-experimentation",
+      "execution-feedback",
+      "research-agent"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.03302",
+      "repo": "https://github.com/snap-stanford/MLAgentBench"
+    }
+  }
+]

@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "paperqa2",
+    "title": "PaperQA2",
+    "year": 2024,
+    "section": "literature-discovery-synthesis",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "A literature-grounded research assistant for scientific question answering, synthesis, and contradiction detection.",
+    "why_it_matters": "It is a useful reference point for what a strong L0 literature component looks like when citation fidelity and scientific retrieval are the main job.",
+    "tags": [
+      "literature",
+      "retrieval",
+      "citation-grounded"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.48550/arXiv.2409.13740",
+      "repo": "https://github.com/Future-House/paper-qa"
+    },
+    "stage_focus": "discover-synthesize",
+    "stage_secondary": null
+  },
+  {
+    "id": "sciagents",
+    "title": "SciAgents",
+    "year": 2024,
+    "section": "research-ideation",
+    "level": "l2-collaborators",
+    "domains": [
+      "chemistry",
+      "materials-science"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A multi-agent discovery workflow that combines ontological knowledge graphs, retrieval, and iterative hypothesis refinement.",
+    "why_it_matters": "It is representative of the newer ideation systems that treat scientific discovery as a graph-grounded, multi-agent reasoning problem instead of a single prompt.",
+    "tags": [
+      "knowledge-graph",
+      "multi-agent",
+      "hypothesis-generation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.05556"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": "discover-synthesize"
+  },
+  {
+    "id": "ai-co-scientist",
+    "title": "AI co-scientist",
+    "year": 2025,
+    "sort_date": "2025-02-20",
+    "section": "research-ideation",
+    "level": "l2-collaborators",
+    "domains": [
+      "biomedical"
+    ],
+    "evidence": "Technical report",
+    "human_role": "Human-in-the-loop",
+    "summary": "A Gemini-based multi-agent collaborator for generating literature-grounded hypotheses, overviews, and experimental protocols.",
+    "why_it_matters": "It makes the human-in-the-loop boundary explicit: the system proposes and critiques ideas, while scientists retain framing and validation authority.",
+    "tags": [
+      "biomedical",
+      "multi-agent",
+      "hypothesis-ranking"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.18864",
+      "blog": "https://blog.google/feed/google-research-ai-co-scientist/"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": "plan-design"
+  },
+  {
+    "id": "agent-laboratory",
+    "title": "Agent Laboratory",
+    "year": 2025,
+    "section": "end-to-end-research-systems",
+    "level": "l2-collaborators",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-in-the-loop",
+    "summary": "An LLM research assistant that moves from a user-provided idea through literature review, experimentation, and report writing.",
+    "why_it_matters": "It is a clean example of a modern research workflow that remains collaborative instead of claiming fully autonomous discovery.",
+    "tags": [
+      "research-assistant",
+      "workflow",
+      "report-writing"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.04227",
+      "project": "https://agentlaboratory.github.io/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "the-ai-scientist",
+    "title": "The AI Scientist",
+    "year": 2024,
+    "sort_date": "2024-08-12",
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A full-loop AI scientist for idea generation, code writing, experimentation, paper drafting, and simulated review.",
+    "why_it_matters": "It remains a central reference point for modern end-to-end AI scientist claims because it makes the full digital loop concrete and open source.",
+    "tags": [
+      "end-to-end",
+      "paper-writing",
+      "closed-loop"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.48550/arXiv.2408.06292",
+      "repo": "https://github.com/SakanaAI/AI-Scientist"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "robin",
+    "title": "Robin",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l2-collaborators",
+    "domains": [
+      "biomedical",
+      "chemistry"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human executes physical experiments",
+    "summary": "A multi-agent scientific discovery system that links literature search, hypothesis generation, experiment proposal, and result interpretation.",
+    "why_it_matters": "It is a strong example of lab-in-the-loop AI research, where the digital system handles the intellectual loop while humans execute the physical step.",
+    "tags": [
+      "lab-in-the-loop",
+      "drug-discovery",
+      "multi-agent"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.48550/arXiv.2505.13400",
+      "repo": "https://github.com/Future-House/robin"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "ai-researcher",
+    "title": "AI-Researcher",
+    "year": 2025,
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Conference",
+    "human_role": "Mostly automated",
+    "summary": "A full research automation stack for literature review, hypothesis generation, implementation, and publication-ready manuscript preparation.",
+    "why_it_matters": "It is useful as a benchmark-aware autonomous research system because it pairs an end-to-end pipeline claim with a dedicated evaluation surface in Scientist-Bench.",
+    "tags": [
+      "autonomous",
+      "ai-research",
+      "benchmark-aware"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.18705",
+      "repo": "https://github.com/hkuds/ai-researcher",
+      "project": "https://autoresearcher.github.io/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "agentsociety",
+    "title": "AgentSociety",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l2-collaborators",
+    "domains": [
+      "social-science"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A large-scale LLM-agent social simulation platform for running computational social experiments, interventions, and population-level behavioral studies.",
+    "why_it_matters": "It is a strong social science anchor for the repository because it turns social experiments into a reproducible multi-agent research environment rather than a one-off demo.",
+    "tags": [
+      "social-simulation",
+      "computational-social-science",
+      "multi-agent"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.08691",
+      "repo": "https://github.com/tsinghua-fib-lab/AgentSociety",
+      "project": "https://agentsociety.readthedocs.io/"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "autoresearch",
+    "title": "Autoresearch",
+    "year": 2026,
+    "sort_date": "2026-03-07",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Repo only",
+    "human_role": "Mostly automated",
+    "summary": "A self-improving AI research repo where agents iteratively rewrite a small training stack, run short experiments, and keep better variants.",
+    "why_it_matters": "It is a compact, GitHub-native reference point for autonomous closed-loop model improvement, with the research loop expressed directly through repo state and experiment logs.",
+    "tags": [
+      "self-evolving",
+      "single-gpu",
+      "autonomous-research"
+    ],
+    "links": {
+      "repo": "https://github.com/karpathy/autoresearch"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "claudini",
+    "title": "Claudini",
+    "year": 2026,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An autoresearch-style Claude Code pipeline that iteratively designs and benchmarks new white-box adversarial attack algorithms for LLM jailbreak and prompt-injection settings.",
+    "why_it_matters": "It is a concrete domain-specific example of autonomous algorithm discovery, with dense quantitative feedback and released code rather than only a conceptual autonomy claim.",
+    "tags": [
+      "adversarial-attacks",
+      "red-teaming",
+      "autoresearch"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.48550/arXiv.2603.24511",
+      "repo": "https://github.com/romovpa/claudini"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "the-ai-scientist-v2",
+    "title": "The AI Scientist-v2",
+    "year": 2025,
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Technical report",
+    "human_role": "Mostly automated",
+    "summary": "A workshop-level autonomous research system that replaces hand-authored templates with agentic tree search over research trajectories.",
+    "why_it_matters": "It pushes the closed-loop frontier forward by making open-ended search a first-class part of the research pipeline rather than a fixed scripted scaffold.",
+    "tags": [
+      "agentic-tree-search",
+      "autonomous",
+      "template-free"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.08066",
+      "repo": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "blog": "https://sakana.ai/ai-scientist-first-publication/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "memento-skills",
+    "title": "Memento-Skills",
+    "year": 2026,
+    "section": "experimentation-agent-methods",
+    "level": "l1-tools",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Technical report",
+    "human_role": "Mostly automated",
+    "summary": "A continually learnable agent-designing agent that externalizes reusable skills as markdown memory and updates them through a read-write reflective learning loop.",
+    "why_it_matters": "It is a strong architecture reference for self-evolving agents because adaptation happens through persistent skill and prompt evolution rather than one-off prompting or parameter updates.",
+    "tags": [
+      "self-evolving",
+      "continual-learning",
+      "externalized-memory"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.48550/arXiv.2603.18743",
+      "repo": "https://github.com/Memento-Teams/Memento-Skills"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "darwin-godel-machine",
+    "title": "Darwin Godel Machine",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Technical report",
+    "human_role": "Full automation claim",
+    "summary": "A self-improving agent that rewrites its own code and uses open-ended search to discover better variants of itself.",
+    "why_it_matters": "It is one of the clearest current reference points for explicit self-modification, which makes it highly relevant to the self-evolving end of the AI4Research taxonomy.",
+    "tags": [
+      "self-evolving",
+      "open-ended-search",
+      "coding-agent"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.22954",
+      "repo": "https://github.com/jennyzzt/dgm",
+      "blog": "https://sakana.ai/dgm/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "autoresearchclaw",
+    "title": "AutoResearchClaw",
+    "year": 2026,
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Repo only",
+    "human_role": "Full automation claim",
+    "summary": "A 23-stage multi-agent pipeline that turns a research topic into a paper draft with literature retrieval, experiments, review passes, and cross-run lesson injection.",
+    "why_it_matters": "It is one of the clearest GitHub-native claims of full-loop autonomous research plus persistent self-improvement, which makes it a useful frontier reference even before formal publication.",
+    "tags": [
+      "paper-generation",
+      "citation-verification",
+      "self-evolving"
+    ],
+    "links": {
+      "repo": "https://github.com/aiming-lab/AutoResearchClaw"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "aris",
+    "title": "ARIS",
+    "year": 2026,
+    "section": "end-to-end-research-systems",
+    "level": "l2-collaborators",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Repo only",
+    "human_role": "Human-in-the-loop",
+    "summary": "A lightweight Markdown-only skill stack for autonomous ML research, with idea discovery, experiment bridging, cross-model review loops, and paper-writing workflows.",
+    "why_it_matters": "It is a useful practical reference for GitHub-native research orchestration because it exposes the workflow as editable skill files rather than as a locked framework.",
+    "tags": [
+      "markdown-skills",
+      "cross-model-review",
+      "experiment-automation"
+    ],
+    "links": {
+      "repo": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "prover-agent",
+    "title": "Prover Agent",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l1-tools",
+    "domains": [
+      "math"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "An agent-based formal mathematics system that combines LLM reasoning, Lean feedback, and auxiliary lemma generation for automated theorem proving.",
+    "why_it_matters": "It gives the repository a dedicated mathematics reference point: a modern research agent that helps discover viable proof strategies instead of only scoring benchmark answers.",
+    "tags": [
+      "theorem-proving",
+      "lean",
+      "formal-math"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.19923",
+      "repo": "https://github.com/kAIto47802/Prover-Agent"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": null
+  },
+  {
+    "id": "dspy",
+    "title": "DSPy",
+    "year": 2023,
+    "section": "research-infrastructure-frameworks",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-driven",
+    "summary": "A programming model for declarative LM pipelines with compiler-driven optimization of prompts, demonstrations, and module behavior.",
+    "why_it_matters": "It is a core enabling method for turning brittle prompt chains into optimizable research pipelines, which is why it still shows up underneath many newer agent stacks.",
+    "tags": [
+      "pipeline-optimization",
+      "prompt-programming",
+      "compiler"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.03714",
+      "repo": "https://github.com/stanfordnlp/dspy",
+      "project": "https://openreview.net/forum?id=sY5N0zY5Od"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "textgrad",
+    "title": "TextGrad",
+    "year": 2024,
+    "section": "experimentation-agent-methods",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Journal",
+    "human_role": "Human-driven",
+    "summary": "A framework for propagating text-based feedback through compound AI systems to iteratively improve prompts, code, and other artifacts.",
+    "why_it_matters": "It gives the AI4Research stack a practical optimization primitive for iterative refinement when numerical gradients are unavailable.",
+    "tags": [
+      "optimization",
+      "textual-feedback",
+      "compound-systems"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.07496",
+      "repo": "https://github.com/zou-group/textgrad",
+      "blog": "https://hai.stanford.edu/news/textgrad-autograd-text"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "autoevolver",
+    "title": "AutoEvolver",
+    "year": 2026,
+    "section": "experimentation-agent-methods",
+    "level": "l2-collaborators",
+    "domains": [
+      "computer-science"
+    ],
+    "evidence": "Repo only",
+    "human_role": "Human-in-the-loop",
+    "summary": "A minimal Claude Code setup showing that a coding agent can iteratively optimize algorithmic solutions on open benchmark problems without an explicit evolutionary framework.",
+    "why_it_matters": "It is a useful boundary case for the taxonomy: a lightweight closed-loop optimizer that reaches published SOTA-level results with little scaffolding, while still exposing reproducibility and control limits.",
+    "tags": [
+      "algorithm-optimization",
+      "aspiration-prompting",
+      "coding-agent"
+    ],
+    "links": {
+      "repo": "https://github.com/tengxiaoliu/autoevolver",
+      "project": "https://tengxiaoliu.github.io/autoevolver/"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "opro",
+    "title": "OPRO",
+    "year": 2023,
+    "section": "experimentation-agent-methods",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "Optimization by PROmpting treats language models as optimizers that iteratively generate better candidate instructions or solutions.",
+    "why_it_matters": "It is a useful conceptual anchor for the self-optimization branch of the repository because it makes iterative prompt search explicit and measurable.",
+    "tags": [
+      "prompt-optimization",
+      "search",
+      "optimizer"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.03409",
+      "repo": "https://github.com/google-deepmind/opro"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "aviary",
+    "title": "Aviary",
+    "year": 2024,
+    "section": "research-infrastructure-frameworks",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "A language-agent gymnasium with challenging scientific tasks for training and evaluating agents under realistic multi-step conditions.",
+    "why_it_matters": "It is a strong substrate for benchmark-aware research agents because it operationalizes scientific tasks as trainable and measurable environments.",
+    "tags": [
+      "agent-gym",
+      "scientific-tasks",
+      "training-environment"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.21154",
+      "repo": "https://github.com/Future-House/aviary"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "ramon-llull-thinking-machine",
+    "title": "The Ramon Llull's Thinking Machine for Automated Ideation",
+    "year": 2025,
+    "section": "research-ideation",
+    "level": "l1-tools",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-driven",
+    "summary": "A lightweight ideation system that recombines theme, domain, and method axes mined from papers to generate literature-grounded research ideas.",
+    "why_it_matters": "It is a clear ideation-stage reference point because it makes combinatorial research idea generation explicit, interpretable, and easy to audit.",
+    "tags": [
+      "automated-ideation",
+      "symbolic-recombination",
+      "literature-mining"
+    ],
+    "links": {
+      "paper": "https://openreview.net/forum?id=DhIqrga74P"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": null
+  },
+  {
+    "id": "ideation-execution-gap",
+    "title": "The Ideation-Execution Gap",
+    "year": 2025,
+    "section": "research-ideation",
+    "level": "l1-tools",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "An execution study showing that LLM-generated NLP ideas look more novel at ideation time but produce weaker outcomes after full implementation and review.",
+    "why_it_matters": "It is a useful ideation evaluation anchor because it checks whether novelty survives contact with execution instead of stopping at blind idea ratings.",
+    "tags": [
+      "ideation-evaluation",
+      "execution-study",
+      "human-study"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.20803"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": null
+  },
+  {
+    "id": "can-llms-generate-novel-research-ideas",
+    "title": "Can LLMs Generate Novel Research Ideas?",
+    "year": 2024,
+    "sort_date": "2024-09-06",
+    "section": "research-ideation",
+    "level": "l1-tools",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-driven",
+    "summary": "A large-scale blind human study comparing LLM-generated and expert-generated NLP ideas, with LLM ideas rated higher on novelty but slightly lower on feasibility.",
+    "why_it_matters": "It is one of the clearest empirical reference points for the ideation stage because it uses expert blind review instead of anecdotal examples.",
+    "tags": [
+      "ideation-evaluation",
+      "human-study",
+      "novelty"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.04109",
+      "project": "https://saltlab.stanford.edu/papers/si-research-idea-2025/"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": null
+  },
+  {
+    "id": "researchagent",
+    "title": "ResearchAgent",
+    "year": 2024,
+    "section": "research-ideation",
+    "level": "l2-collaborators",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A literature-grounded idea-writing agent that iteratively generates research problems, methods, and experiment designs with review agents in the loop.",
+    "why_it_matters": "It is a strong ideation workflow example because it turns literature-grounded idea refinement into an explicit multi-agent loop.",
+    "tags": [
+      "idea-writing",
+      "multi-agent",
+      "literature-grounded"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.07738",
+      "project": "https://www.microsoft.com/en-us/research/publication/researchagent-iterative-research-idea-generation-over-scientific-literature-with-large-language-models/"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": "plan-design"
+  },
+  {
+    "id": "scimaster",
+    "title": "SciMaster",
+    "year": 2025,
+    "section": "end-to-end-research-systems",
+    "level": "l2-collaborators",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A general-purpose scientific agent stack built around tool use, domain memory, and multi-stage research assistance across broad scientific disciplines.",
+    "why_it_matters": "It is a useful cross-domain anchor for the repo because it is explicitly positioned as a general scientific agent rather than a single-task demo.",
+    "tags": [
+      "general-scientific-agent",
+      "tool-augmented",
+      "cross-domain"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.05241",
+      "repo": "https://github.com/sjtu-sai-agents/X-Master",
+      "project": "https://scimaster.bohrium.com/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "openscholar",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "year": 2026,
+    "section": "literature-discovery-synthesis",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Journal",
+    "human_role": "Human-driven",
+    "summary": "The OpenScholar paper introduces a retrieval-augmented literature synthesis model and multi-domain evaluation for citation-grounded long-form scientific answers.",
+    "why_it_matters": "It is a strong literature-synthesis anchor because it couples an open scientific assistant with rigorous multi-domain evaluation and citation fidelity.",
+    "tags": [
+      "literature-synthesis",
+      "rag",
+      "citation-grounded"
+    ],
+    "links": {
+      "paper": "https://www.nature.com/articles/s41586-025-10072-4",
+      "repo": "https://github.com/AkariAsai/OpenScholar",
+      "project": "https://openscilm.allen.ai/"
+    },
+    "stage_focus": "discover-synthesize",
+    "stage_secondary": "write-review"
+  },
+  {
+    "id": "anthropic-agent-skills",
+    "title": "Anthropic Agent Skills",
+    "year": 2025,
+    "section": "research-infrastructure-frameworks",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Organization report",
+    "human_role": "Human-driven",
+    "summary": "A reusable skills system in which agents discover and load folders of instructions, scripts, and supporting resources to gain specialized capabilities on demand.",
+    "why_it_matters": "It is a useful infrastructure anchor because it packages procedural agent knowledge as modular runtime assets instead of burying every capability inside a monolithic prompt or code path.",
+    "tags": [
+      "skills",
+      "procedural-knowledge",
+      "agent-runtime"
+    ],
+    "links": {
+      "repo": "https://github.com/anthropics/skills",
+      "blog": "https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "expert-level-empirical-software",
+    "title": "An AI system to help scientists write expert-level empirical software",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A tree-search coding system that writes and iteratively improves empirical analysis software for real scientific tasks across multiple domains.",
+    "why_it_matters": "It is a strong framework-level reference because it makes expert-grade empirical software generation measurable across genuine scientific workloads.",
+    "tags": [
+      "empirical-software",
+      "tree-search",
+      "coding-agent"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.06503"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "openhands",
+    "title": "OpenHands",
+    "year": 2024,
+    "section": "research-infrastructure-frameworks",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "An open platform for generalist software agents that has become a practical substrate for research-oriented coding and experiment workflows.",
+    "why_it_matters": "It matters here as shared infrastructure: many research automation stacks inherit their coding and tool-use assumptions from this class of agent platform.",
+    "tags": [
+      "generalist-agent",
+      "coding-agent",
+      "open-platform"
+    ],
+    "links": {
+      "paper": "https://openreview.net/forum?id=OJd3ayDDoF",
+      "repo": "https://github.com/OpenHands/OpenHands",
+      "project": "https://www.all-hands.dev/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "langgraph",
+    "title": "LangGraph",
+    "year": 2024,
+    "section": "research-infrastructure-frameworks",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Repo only",
+    "human_role": "Human-driven",
+    "summary": "A low-level graph and runtime framework for building stateful, controllable, and long-running agents with explicit execution flow and durable state.",
+    "why_it_matters": "It is a strong infrastructure anchor because research agents often need resumable execution, branching control flow, and persistent state that go beyond simple prompt-chain orchestration.",
+    "tags": [
+      "agent-orchestration",
+      "stateful-agents",
+      "graph-runtime"
+    ],
+    "links": {
+      "repo": "https://github.com/langchain-ai/langgraph",
+      "project": "https://langchain-ai.github.io/langgraph/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "mle-star",
+    "title": "MLE-STAR",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Conference",
+    "human_role": "Mostly automated",
+    "summary": "A machine learning engineering agent that couples search, execution feedback, and targeted refinement to solve open-ended ML tasks.",
+    "why_it_matters": "It is a strong ML engineering reference point because it treats repeated execution and refinement as the core loop rather than a one-shot code generation problem.",
+    "tags": [
+      "ml-engineering",
+      "search",
+      "targeted-refinement"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.15692",
+      "project": "https://research.google/pubs/mle-star-machine-learning-engineering-agent-via-search-and-targeted-refinement/"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "ml-master",
+    "title": "ML-Master",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An AI-for-AI research agent that integrates exploration, reasoning, and memory to automate machine learning experimentation and iteration.",
+    "why_it_matters": "It is representative of the newer ML research agents that explicitly blend broad exploration with guided reasoning instead of relying on fixed execution scripts.",
+    "tags": [
+      "ai-for-ai",
+      "exploration",
+      "memory"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.16499",
+      "repo": "https://github.com/sjtu-sai-agents/ML-Master",
+      "project": "https://sjtu-sai-agents.github.io/ML-Master/1.0.html"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "aide",
+    "title": "AIDE",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An autonomous ML research agent that explores code-space with execution feedback to search for better models, pipelines, and experimental outcomes.",
+    "why_it_matters": "It is a useful ML-agent anchor because it frames research progress as guided exploration in code space rather than only benchmark-specific prompt optimization.",
+    "tags": [
+      "code-exploration",
+      "ml-agent",
+      "execution-feedback"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.13138",
+      "repo": "https://github.com/WecoAI/aideml",
+      "project": "https://www.aide.ml/"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "ds-agent",
+    "title": "DS-Agent",
+    "year": 2024,
+    "section": "experimentation-agent-methods",
+    "level": "l2-collaborators",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-in-the-loop",
+    "summary": "A data science agent that uses case-based reasoning to retrieve, adapt, and execute prior solutions for end-to-end analytics tasks.",
+    "why_it_matters": "It is a practical data-science baseline for the repo because it grounds agent behavior in reusable case memory rather than only on-the-fly prompting.",
+    "tags": [
+      "data-science",
+      "case-based-reasoning",
+      "analytics-agent"
+    ],
+    "links": {
+      "paper": "https://proceedings.mlr.press/v235/guo24b.html",
+      "repo": "https://github.com/guosyjlu/DS-Agent"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "alpha-go-moment",
+    "title": "AlphaGo Moment for Model Architecture Discovery",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An autonomous architecture-discovery system that uses self-play-style search to propose and verify novel model designs such as linear-attention variants.",
+    "why_it_matters": "It is a useful innovation-agent anchor because it makes architecture discovery look like an iterative search problem rather than a static model-design exercise.",
+    "tags": [
+      "architecture-discovery",
+      "self-play",
+      "model-design"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.18074",
+      "repo": "https://github.com/GAIR-NLP/ASI-Arch"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "alphaevolve",
+    "title": "AlphaEvolve",
+    "year": 2025,
+    "sort_date": "2025-06-17",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "computer-science"
+    ],
+    "evidence": "Technical report",
+    "human_role": "Mostly automated",
+    "summary": "A Gemini-powered evolutionary coding agent for discovering better algorithms and scientific solutions through repeated proposal, execution, and selection.",
+    "why_it_matters": "It is a strong scientific innovation reference because it extends coding-agent search into open-ended algorithm and science discovery tasks.",
+    "tags": [
+      "evolutionary-search",
+      "coding-agent",
+      "algorithm-discovery"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.13131",
+      "blog": "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "alphageometry",
+    "title": "Solving olympiad geometry without human demonstrations",
+    "year": 2024,
+    "section": "experimentation-agent-methods",
+    "level": "l1-tools",
+    "domains": [
+      "math"
+    ],
+    "evidence": "Journal",
+    "human_role": "Mostly automated",
+    "summary": "The AlphaGeometry system combines symbolic deduction and neural language modeling to solve olympiad-level geometry problems without human demonstrations.",
+    "why_it_matters": "It gives the repo a strong mathematics innovation anchor where autonomous reasoning is tied to formal verification rather than surface-level benchmark prompting.",
+    "tags": [
+      "geometry",
+      "theorem-proving",
+      "neuro-symbolic"
+    ],
+    "links": {
+      "paper": "https://www.nature.com/articles/s41586-023-06747-5",
+      "repo": "https://github.com/google-deepmind/alphageometry"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": null
+  },
+  {
+    "id": "webweaver",
+    "title": "WebWeaver",
+    "year": 2025,
+    "section": "literature-discovery-synthesis",
+    "level": "l2-collaborators",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A deep research system that uses dynamic outline planning to collect, organize, and synthesize web-scale evidence for open-ended questions.",
+    "why_it_matters": "It is a useful open-ended research reference because it separates evidence collection from outline construction and long-form synthesis.",
+    "tags": [
+      "deep-research",
+      "dynamic-outlines",
+      "web-evidence"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.13312",
+      "repo": "https://github.com/Alibaba-NLP/DeepResearch"
+    },
+    "stage_focus": "discover-synthesize",
+    "stage_secondary": "write-review"
+  },
+  {
+    "id": "interactivesurvey",
+    "title": "InteractiveSurvey",
+    "year": 2025,
+    "section": "survey-review-automation",
+    "level": "l2-collaborators",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A personalized survey-writing system that combines interactive topic steering with automated literature collection, organization, and draft generation.",
+    "why_it_matters": "It is a good survey-generation reference because it keeps human guidance explicit while still automating most of the evidence-gathering and drafting work.",
+    "tags": [
+      "survey-generation",
+      "interactive",
+      "literature-review"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.08762",
+      "repo": "https://github.com/TechnicolorGUO/InteractiveSurvey",
+      "project": "https://technicolorguo.github.io/InteractiveSurvey/"
+    },
+    "stage_focus": "write-review",
+    "stage_secondary": "discover-synthesize"
+  },
+  {
+    "id": "surveyx",
+    "title": "SurveyX",
+    "year": 2025,
+    "section": "survey-review-automation",
+    "level": "l2-collaborators",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "An academic survey automation system that builds topic maps, collects relevant papers, and assembles structured survey drafts with citation support.",
+    "why_it_matters": "It is a practical survey-writing anchor because it treats survey construction as a structured literature workflow rather than a single long-generation call.",
+    "tags": [
+      "survey-generation",
+      "topic-mapping",
+      "citation-support"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.14776",
+      "repo": "https://github.com/IAAR-Shanghai/SurveyX",
+      "project": "https://www.surveyx.cn/"
+    },
+    "stage_focus": "write-review",
+    "stage_secondary": "discover-synthesize"
+  },
+  {
+    "id": "pasa",
+    "title": "PaSa",
+    "year": 2025,
+    "section": "literature-discovery-synthesis",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-in-the-loop",
+    "summary": "A paper-search agent that plans search actions, expands citations, and iteratively refines queries to build higher-recall literature sets.",
+    "why_it_matters": "It is a useful retrieval anchor because it turns academic paper search into an explicit agentic process instead of only keyword ranking.",
+    "tags": [
+      "paper-search",
+      "retrieval-agent",
+      "citation-expansion"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.10120",
+      "repo": "https://github.com/bytedance/pasa",
+      "project": "https://pasa-agent.ai/"
+    },
+    "stage_focus": "discover-synthesize",
+    "stage_secondary": null
+  },
+  {
+    "id": "litllm",
+    "title": "LitLLM",
+    "year": 2024,
+    "section": "literature-discovery-synthesis",
+    "level": "l1-tools",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-driven",
+    "summary": "A toolkit for scientific literature review that supports retrieval, reading, synthesis, and downstream review-oriented writing workflows.",
+    "why_it_matters": "It is a useful tooling anchor for literature work because it focuses on the review process itself rather than only question answering.",
+    "tags": [
+      "literature-review",
+      "toolkit",
+      "synthesis"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.01788",
+      "repo": "https://github.com/LitLLM/litllms-for-literature-review-tmlr"
+    },
+    "stage_focus": "discover-synthesize",
+    "stage_secondary": "write-review"
+  },
+  {
+    "id": "autosurvey",
+    "title": "AutoSurvey",
+    "year": 2024,
+    "section": "survey-review-automation",
+    "level": "l2-collaborators",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Conference",
+    "human_role": "Human-in-the-loop",
+    "summary": "A survey-writing system that automatically collects papers, extracts structure, and drafts survey articles from a topic specification.",
+    "why_it_matters": "It is a compact survey-generation baseline for the repo because it automates the full survey drafting workflow from topic to manuscript structure.",
+    "tags": [
+      "survey-generation",
+      "drafting",
+      "literature-collection"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.10252",
+      "repo": "https://github.com/AutoSurveys/AutoSurvey"
+    },
+    "stage_focus": "write-review",
+    "stage_secondary": "discover-synthesize"
+  },
+  {
+    "id": "atomagents",
+    "title": "AtomAgents",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "materials-science"
+    ],
+    "evidence": "Journal",
+    "human_role": "Mostly automated",
+    "summary": "A physics-aware multimodal multi-agent system for alloy design that combines knowledge retrieval, code generation, atomistic simulation, and results analysis.",
+    "why_it_matters": "It is a strong materials-science anchor because it couples multi-agent reasoning with real physics engines for autonomous alloy discovery tasks.",
+    "tags": [
+      "materials-discovery",
+      "atomistic-simulation",
+      "multi-agent"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.1073/pnas.2414074122",
+      "repo": "https://github.com/lamm-mit/AtomAgents"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "gamma-astronomy-agents",
+    "title": "AI Agents for Ground-Based Gamma Astronomy",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l2-collaborators",
+    "domains": [
+      "physics"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A pair of LLM-based agent prototypes for Cherenkov Telescope Array operations and gamma-astronomy data analysis, including configuration maintenance and code generation.",
+    "why_it_matters": "It is a useful physics application anchor because it shows agentic support embedded directly into observatory operations and offline scientific analysis.",
+    "tags": [
+      "gamma-astronomy",
+      "observatory-operations",
+      "data-analysis"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.00821"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "agentic-physics-experiments",
+    "title": "Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "physics"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An agentic system deployed at a production synchrotron light source that translates natural-language prompts into safe multi-stage machine-physics experiments and analysis.",
+    "why_it_matters": "It is a frontier physics-system reference because it moves agentic AI from offline planning into real facility control under operational safety constraints.",
+    "tags": [
+      "accelerator-physics",
+      "facility-control",
+      "safe-execution"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.17255"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "llm-sociopol",
+    "title": "Simulating and Experimenting with Social Media Mobilization Using LLM Agents",
+    "year": 2025,
+    "section": "experimentation-agent-methods",
+    "level": "l2-collaborators",
+    "domains": [
+      "social-science"
+    ],
+    "evidence": "Organization report",
+    "human_role": "Human-in-the-loop",
+    "summary": "An LLM-agent social simulation framework for studying political mobilization over realistic social networks with controlled counterfactual experiments.",
+    "why_it_matters": "It is a strong social-science application anchor because it connects LLM-based social simulation with experimentally grounded mobilization research.",
+    "tags": [
+      "social-simulation",
+      "political-mobilization",
+      "network-experiments"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.26494",
+      "repo": "https://github.com/CausalMP/LLM-SocioPol",
+      "project": "https://www.gsb.stanford.edu/faculty-research/working-papers/simulating-experimenting-social-media-mobilization-using-llm-agents"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "ttt-discover",
+    "title": "Learning to Discover at Test Time",
+    "year": 2026,
+    "sort_date": "2026-01-22",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A test-time training system that uses reinforcement learning on a single target problem so the model can keep improving while searching for stronger scientific and algorithmic solutions.",
+    "why_it_matters": "It is a useful self-evolving anchor because it turns problem-specific continual learning itself into the discovery mechanism, rather than relying only on frozen-model search.",
+    "tags": [
+      "test-time-training",
+      "reinforcement-learning",
+      "scientific-discovery"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.48550/arXiv.2601.16175",
+      "project": "https://test-time-training.github.io/discover/"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "alphafold-3",
+    "title": "AlphaFold 3",
+    "year": 2024,
+    "sort_date": "2024-05-08",
+    "section": "experimentation-agent-methods",
+    "level": "l1-tools",
+    "domains": [
+      "biomedical"
+    ],
+    "evidence": "Journal",
+    "human_role": "Mostly automated",
+    "summary": "A biomolecular structure and interaction prediction system that extends AlphaFold from protein folding to complexes involving proteins, nucleic acids, ligands, and ions.",
+    "why_it_matters": "It is a landmark biology-system anchor because it turns high-value molecular structure inference into a reusable computational research component with direct downstream value for drug discovery and molecular science.",
+    "tags": [
+      "protein-folding",
+      "structure-prediction",
+      "biomolecular-modeling"
+    ],
+    "links": {
+      "paper": "https://doi.org/10.1038/s41586-024-07487-w",
+      "repo": "https://github.com/google-deepmind/alphafold3",
+      "project": "https://alphafoldserver.com/welcome"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": null
+  }
+]

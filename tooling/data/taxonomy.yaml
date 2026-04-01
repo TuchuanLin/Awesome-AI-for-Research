@@ -1,0 +1,306 @@
+{
+  "research_stages": [
+    {
+      "slug": "discover-synthesize",
+      "label": "Discover & Synthesize",
+      "description": "Literature search, evidence gathering, contradiction spotting, and structured synthesis.",
+      "fine_stages": [
+        "literature search",
+        "retrieval and ranking",
+        "evidence synthesis",
+        "contradiction detection"
+      ]
+    },
+    {
+      "slug": "ideate",
+      "label": "Ideate",
+      "description": "Hypothesis generation, gap finding, analogical search, and research framing.",
+      "fine_stages": [
+        "hypothesis generation",
+        "gap analysis",
+        "analogy mining",
+        "novelty checking"
+      ]
+    },
+    {
+      "slug": "plan-design",
+      "label": "Plan & Design",
+      "description": "Protocol drafting, experiment planning, evaluation design, and task decomposition.",
+      "fine_stages": [
+        "study design",
+        "experiment planning",
+        "evaluation planning",
+        "tool selection"
+      ]
+    },
+    {
+      "slug": "implement",
+      "label": "Implement",
+      "description": "Code generation, pipeline assembly, environment setup, and artifact construction.",
+      "fine_stages": [
+        "code scaffolding",
+        "pipeline composition",
+        "data preparation",
+        "tool integration"
+      ]
+    },
+    {
+      "slug": "execute-experiment",
+      "label": "Execute & Experiment",
+      "description": "Running experiments, tool orchestration, adaptive retries, and lab-in-the-loop execution.",
+      "fine_stages": [
+        "experiment execution",
+        "tool orchestration",
+        "adaptive retries",
+        "physical experiment handoff"
+      ]
+    },
+    {
+      "slug": "analyze-visualize",
+      "label": "Analyze & Visualize",
+      "description": "Result interpretation, figure generation, statistical inspection, and error analysis.",
+      "fine_stages": [
+        "result analysis",
+        "visualization",
+        "ablation reading",
+        "failure analysis"
+      ]
+    },
+    {
+      "slug": "write-review",
+      "label": "Write & Review",
+      "description": "Drafting manuscripts, assembling reports, review simulation, and revision.",
+      "fine_stages": [
+        "paper drafting",
+        "report assembly",
+        "review simulation",
+        "revision"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "slug": "l1-tools",
+      "label": "L1 Tools",
+      "description": "Human dominates the loop. The AI acts as a tool, local component, or narrow assistant rather than as a workflow owner."
+    },
+    {
+      "slug": "l2-collaborators",
+      "label": "L2 Collaborators",
+      "description": "Human in the loop. The AI can advance multi-step work, but humans still steer, gate, or validate important decisions."
+    },
+    {
+      "slug": "l3-systems",
+      "label": "L3 Systems",
+      "description": "AI dominates the loop. The system owns substantial execution and iteration, while humans mainly provide goals, constraints, or downstream review."
+    }
+  ],
+  "sections": [
+    {
+      "slug": "end-to-end-research-systems",
+      "emoji": "🔬",
+      "label": "End-to-End Research Systems",
+      "short": "Systems that cover multiple core stages of the research process and aim to complete a relatively full research loop with limited human intervention.",
+      "page": "docs/sections/end-to-end-research-systems.md",
+      "intro": "Systems that cover multiple core stages of the research process and aim to complete a relatively full research loop with limited human intervention.",
+      "includes": [
+        "the main contribution is a full or near-full AI researcher workflow"
+      ],
+      "excludes": [
+        "it mainly solves one subtask, proposes a method, or provides infrastructure"
+      ]
+    },
+    {
+      "slug": "experimentation-agent-methods",
+      "emoji": "⚙️",
+      "label": "Experimentation & Agent Methods",
+      "short": "Systems, methods, and specialized agents whose main contribution is iterative experimentation, optimization, search, reflection, or self-improving execution, rather than a full end-to-end research workflow.",
+      "page": "docs/sections/experimentation-agent-methods.md",
+      "intro": "Systems, methods, and specialized agents whose main contribution is iterative experimentation, optimization, search, reflection, or self-improving execution, rather than a full end-to-end research workflow.",
+      "includes": [
+        "the main contribution is an experiment-improve loop, optimization method, search method, reflection/memory/tool-use method, or a specialized agent centered on iterative improvement"
+      ],
+      "excludes": [
+        "the main contribution is a full or near-full research workflow",
+        "the main contribution is infrastructure, runtime, or platform tooling",
+        "the main contribution is benchmarking or evaluation"
+      ]
+    },
+    {
+      "slug": "research-ideation",
+      "emoji": "💡",
+      "label": "Research Ideation",
+      "short": "Systems focused on generating research questions, hypotheses, directions, or project ideas.",
+      "page": "docs/sections/research-ideation.md",
+      "intro": "Systems focused on generating research questions, hypotheses, directions, or project ideas.",
+      "includes": [
+        "the main output is ideas, hypotheses, or proposals"
+      ],
+      "excludes": [
+        "the main contribution is literature synthesis, experimentation, or full-pipeline execution"
+      ]
+    },
+    {
+      "slug": "literature-discovery-synthesis",
+      "emoji": "📚",
+      "label": "Literature Discovery & Synthesis",
+      "short": "Systems focused on finding, organizing, comparing, and synthesizing prior work.",
+      "page": "docs/sections/literature-discovery-synthesis.md",
+      "intro": "Systems focused on finding, organizing, comparing, and synthesizing prior work.",
+      "includes": [
+        "the main contribution is literature retrieval, mapping, or synthesis"
+      ],
+      "excludes": [
+        "the primary output is a full survey or review article"
+      ]
+    },
+    {
+      "slug": "survey-review-automation",
+      "emoji": "📝",
+      "label": "Survey / Review Automation",
+      "short": "Systems designed to produce structured surveys, reviews, or systematic review-style outputs.",
+      "page": "docs/sections/survey-review-automation.md",
+      "intro": "Systems designed to produce structured surveys, reviews, or systematic review-style outputs.",
+      "includes": [
+        "the main output is a review-like artifact"
+      ],
+      "excludes": [
+        "it mainly retrieves papers or supports literature exploration without producing a formal review"
+      ]
+    },
+    {
+      "slug": "research-infrastructure-frameworks",
+      "emoji": "🧱",
+      "label": "Research Infrastructure & Frameworks",
+      "short": "Frameworks, platforms, runtimes, and engineering environments for building and operating research agents.",
+      "page": "docs/sections/research-infrastructure-frameworks.md",
+      "intro": "Frameworks, platforms, runtimes, and engineering environments for building and operating research agents.",
+      "includes": [
+        "the main contribution is infrastructure for developing or running research systems"
+      ],
+      "excludes": [
+        "the main contribution is a research task system, benchmark, or agent method"
+      ]
+    },
+    {
+      "slug": "benchmarks-evaluation",
+      "emoji": "📏",
+      "label": "Benchmarks & Evaluation",
+      "short": "Benchmarks, datasets, metrics, and evaluation frameworks for research agents and AI-for-research systems.",
+      "page": "docs/benchmarks/index.md"
+    }
+  ],
+  "domains": [
+    {
+      "slug": "ai",
+      "label": "Artificial Intelligence",
+      "description": "Applications in artificial intelligence research, machine learning research workflows, and AI-for-AI systems with explicit AI research targets or evaluation."
+    },
+    {
+      "slug": "biomedical",
+      "label": "Biomedical",
+      "description": "Applications in biology, medicine, drug discovery, and biomedical literature."
+    },
+    {
+      "slug": "chemistry",
+      "label": "Chemistry",
+      "description": "Applications in chemical reasoning, synthesis, and molecular discovery."
+    },
+    {
+      "slug": "computer-science",
+      "label": "Computer Science",
+      "description": "Applications in non-AI computer science research such as formal methods, programming systems, and algorithmic reasoning."
+    },
+    {
+      "slug": "general",
+      "label": "General",
+      "description": "Cross-domain or discipline-agnostic systems for AI-driven research workflows, literature work, agent infrastructure, and research methodology that are not clearly anchored to one vertical field."
+    },
+    {
+      "slug": "materials-science",
+      "label": "Materials Science",
+      "description": "Applications in materials discovery, materials property reasoning, and experimental design."
+    },
+    {
+      "slug": "math",
+      "label": "Math",
+      "description": "Applications in mathematical reasoning, theorem proving, and formal proof discovery."
+    },
+    {
+      "slug": "physics",
+      "label": "Physics",
+      "description": "Applications in physical science reasoning, modeling, and scientific analysis."
+    },
+    {
+      "slug": "social-science",
+      "label": "Social Science",
+      "description": "Applications in social simulation, policy analysis, behavioral science, and computational social experiments."
+    }
+  ],
+  "human_roles": [
+    {
+      "label": "Human-driven",
+      "description": "The human researcher remains the main decision-maker and executor."
+    },
+    {
+      "label": "Human-in-the-loop",
+      "description": "The system can advance the workflow, but expert feedback remains part of the main loop."
+    },
+    {
+      "label": "Human executes physical experiments",
+      "description": "The AI plans and interprets, but people still run the wet-lab or physical step."
+    },
+    {
+      "label": "Mostly automated",
+      "description": "Most digital research stages can run with limited intervention."
+    },
+    {
+      "label": "Full automation claim",
+      "description": "The system explicitly claims autonomous operation over the core loop."
+    }
+  ],
+  "evidence_levels": [
+    {
+      "label": "Preprint",
+      "description": "Public manuscript without archival publication yet."
+    },
+    {
+      "label": "Conference",
+      "description": "Peer-reviewed conference publication or accepted proceedings paper."
+    },
+    {
+      "label": "Journal",
+      "description": "Journal publication or journal-backed archival version."
+    },
+    {
+      "label": "Technical report",
+      "description": "Substantial report released by a lab or company."
+    },
+    {
+      "label": "Organization report",
+      "description": "Project or product documentation released by an organization."
+    },
+    {
+      "label": "Benchmark release",
+      "description": "A benchmark artifact with public code or data release."
+    },
+    {
+      "label": "Repo only",
+      "description": "Public repository without a stable paper or report yet."
+    }
+  ],
+  "benchmark_types": [
+    {
+      "label": "System Benchmark",
+      "description": "Measures end-to-end AI research systems or realistic multi-step workflows."
+    },
+    {
+      "label": "Scientific Reasoning",
+      "description": "Measures scientific problem solving, expert analysis, or domain reasoning quality."
+    },
+    {
+      "label": "Ideation & Discovery",
+      "description": "Measures hypothesis generation, novelty, or open-ended scientific discovery quality."
+    }
+  ]
+}

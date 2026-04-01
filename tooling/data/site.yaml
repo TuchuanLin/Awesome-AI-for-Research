@@ -1,0 +1,55 @@
+{
+  "hero_quote": "Civilization advances by extending the number of important operations which we can perform without thinking about them.",
+  "hero_quote_author": "Alfred North Whitehead",
+  "subtitle_line_1": "Use AI to improve research efficiency and expand the space of exploration.",
+  "subtitle_line_2": "From focused tools to agents that participate in and reshape the research pipeline.",
+  "mission": "This repository focuses on recent, high-signal work on AI-driven research itself: systems that participate in the research loop, optimize it, or redefine who drives the loop.",
+  "contributors": [
+    {
+      "name": "Yi Jing",
+      "url": "https://github.com/LeoJ-xy"
+    },
+    {
+      "name": "Amy Xin",
+      "url": "https://github.com/APopCycle"
+    },
+    {
+      "name": "Zijun Yao",
+      "url": "https://github.com/TranSirius"
+    }
+  ],
+  "quick_nav": [
+    {
+      "label": "Start Here",
+      "anchor": "#start-here"
+    },
+    {
+      "label": "By Research Stage",
+      "anchor": "#by-research-stage"
+    },
+    {
+      "label": "By Role",
+      "anchor": "#by-role"
+    },
+    {
+      "label": "By Section",
+      "anchor": "#by-section"
+    },
+    {
+      "label": "By Domain",
+      "anchor": "#by-domain"
+    },
+    {
+      "label": "Benchmarks",
+      "anchor": "#benchmarks"
+    },
+    {
+      "label": "Taxonomy",
+      "anchor": "#taxonomy"
+    },
+    {
+      "label": "Contributing",
+      "anchor": "#contributing"
+    }
+  ]
+}
