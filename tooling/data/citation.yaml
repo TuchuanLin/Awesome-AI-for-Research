@@ -1,0 +1,32 @@
+{
+  "cff-version": "1.2.0",
+  "title": "Awesome AI for Research",
+  "message": "If you use this repository, please cite it as follows.",
+  "type": "software",
+  "authors": [
+    {
+      "family-names": "Jing",
+      "given-names": "Yi"
+    },
+    {
+      "family-names": "Xin",
+      "given-names": "Xin"
+    },
+    {
+      "family-names": "Yao",
+      "given-names": "Zijun"
+    }
+  ],
+  "repository-code": "https://github.com/THU-KEG/Awesome-AI-for-Research",
+  "url": "https://github.com/THU-KEG/Awesome-AI-for-Research",
+  "year": 2026,
+  "license": "CC BY 4.0",
+  "bibtex": {
+    "key": "awesome_ai_for_research_2026",
+    "author": "Jing, Yi and Xin, Xin and Yao, Zijun",
+    "title": "Awesome AI for Research",
+    "year": 2026,
+    "howpublished": "\\url{https://github.com/THU-KEG/Awesome-AI-for-Research}",
+    "note": "GitHub repository"
+  }
+}

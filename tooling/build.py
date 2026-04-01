@@ -422,6 +422,55 @@ def render_taxonomy_links(output_file: Path) -> str:
     )
 
 
+def render_citation_cff(citation: dict[str, Any]) -> str:
+    lines = [
+        f"cff-version: {citation['cff-version']}",
+        f'title: "{citation["title"]}"',
+        f'message: "{citation["message"]}"',
+        f"type: {citation['type']}",
+        "authors:",
+    ]
+    for author in citation["authors"]:
+        lines.append(f'  - family-names: "{author["family-names"]}"')
+        lines.append(f'    given-names: "{author["given-names"]}"')
+    lines.extend(
+        [
+            f'repository-code: "{citation["repository-code"]}"',
+            f'url: "{citation["url"]}"',
+            f"year: {citation['year']}",
+            f'license: "{citation["license"]}"',
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_citation_bibtex(citation: dict[str, Any]) -> str:
+    bibtex = citation["bibtex"]
+    return "\n".join(
+        [
+            f"@misc{{{bibtex['key']},",
+            f"  author       = {{{bibtex['author']}}},",
+            f"  title        = {{{bibtex['title']}}},",
+            f"  year         = {{{bibtex['year']}}},",
+            f"  howpublished = {{{bibtex['howpublished']}}},",
+            f"  note         = {{{bibtex['note']}}}",
+            "}",
+        ]
+    )
+
+
+def render_citation_md(citation: dict[str, Any]) -> str:
+    return "\n".join(
+        [
+            "If you find this repository useful in your research, please cite:",
+            "",
+            "```bibtex",
+            render_citation_bibtex(citation),
+            "```",
+        ]
+    )
+
+
 def render_contributing_md() -> str:
     return "\n".join(
         [
@@ -576,6 +625,7 @@ def main() -> None:
     build_date = date.today().isoformat()
 
     site = load_jsonish(TOOLING / "data/site.yaml")
+    citation = load_jsonish(TOOLING / "data/citation.yaml")
     taxonomy = load_jsonish(TOOLING / "data/taxonomy.yaml")
     raw_entries = load_jsonish(TOOLING / "collections/entries.yaml")
     raw_benchmarks = load_jsonish(TOOLING / "collections/benchmarks.yaml")
@@ -596,7 +646,7 @@ def main() -> None:
     badge_line = " ".join(
         [
             '<a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a>',
-            shields_badge_html("license", "MIT", "2563eb", rel_path(readme_path, ROOT / "LICENSE")),
+            shields_badge_html("license", "CC BY 4.0", "2563eb", rel_path(readme_path, ROOT / "LICENSE")),
             shields_badge_html("entries", str(stats["entries"]), "0f766e"),
             shields_badge_html("benchmarks", str(stats["benchmarks"]), "b45309"),
             shields_badge_html("updated", build_date, "475569"),
@@ -608,6 +658,7 @@ def main() -> None:
         html_link(item["label"], item["anchor"]) for item in site["quick_nav"]
     )
     featured_entries = [entry_by_id[item_id] for item_id in must_read_ids]
+    write_generated(ROOT / "CITATION.cff", render_citation_cff(citation))
 
     readme = renderer.render_path(
         "pages/readme.md.j2",
@@ -631,6 +682,7 @@ def main() -> None:
             ),
             "benchmark_types_md": render_benchmark_types(taxonomy["benchmark_types"]),
             "taxonomy_links_md": render_taxonomy_links(readme_path),
+            "citation_md": render_citation_md(citation),
             "contributing_md": render_contributing_md(),
             "contributor_badges_html": render_contributor_badges(site["contributors"]),
         },

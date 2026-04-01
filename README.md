@@ -3,7 +3,7 @@
 <h1 align="center">Awesome AI for Research</h1>
 
 <p align="center">
-<a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a> <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-2563eb?style=flat-square" /></a> <img alt="entries: 50" src="https://img.shields.io/badge/entries-50-0f766e?style=flat-square" /> <img alt="benchmarks: 12" src="https://img.shields.io/badge/benchmarks-12-b45309?style=flat-square" /> <img alt="updated: 2026-04-01" src="https://img.shields.io/badge/updated-2026--04--01-475569?style=flat-square" /> <img alt="curation: curated" src="https://img.shields.io/badge/curation-curated-334155?style=flat-square" /> <img alt="coverage: benchmark-aware" src="https://img.shields.io/badge/coverage-benchmark--aware-7c3aed?style=flat-square" />
+<a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a> <a href="LICENSE"><img alt="license: CC BY 4.0" src="https://img.shields.io/badge/license-CC_BY_4.0-2563eb?style=flat-square" /></a> <img alt="entries: 50" src="https://img.shields.io/badge/entries-50-0f766e?style=flat-square" /> <img alt="benchmarks: 12" src="https://img.shields.io/badge/benchmarks-12-b45309?style=flat-square" /> <img alt="updated: 2026-04-01" src="https://img.shields.io/badge/updated-2026--04--01-475569?style=flat-square" /> <img alt="curation: curated" src="https://img.shields.io/badge/curation-curated-334155?style=flat-square" /> <img alt="coverage: benchmark-aware" src="https://img.shields.io/badge/coverage-benchmark--aware-7c3aed?style=flat-square" />
 </p>
 
 <p align="center">
@@ -158,6 +158,24 @@ The repository uses a lightweight taxonomy so entries can be read through resear
 - [Application domain taxonomy](docs/taxonomy.md#application-domain-taxonomy) for discipline-oriented navigation across artificial intelligence, biomedical, chemistry, computer science, general, materials science, math, physics, and social science.
 - [Benchmark taxonomy](docs/taxonomy.md#benchmark-taxonomy) for the compressed evaluation vocabulary used across benchmark pages.
 - [Evidence taxonomy](docs/taxonomy.md#evidence-level-taxonomy) for how we interpret evidence strength across papers, reports, benchmarks, and repositories.
+
+---
+
+<a id="citation"></a>
+## Citation
+
+If you find this repository useful in your research, please cite:
+
+```bibtex
+@misc{awesome_ai_for_research_2026,
+  author       = {Jing, Yi and Xin, Xin and Yao, Zijun},
+  title        = {Awesome AI for Research},
+  year         = {2026},
+  howpublished = {\url{https://github.com/THU-KEG/Awesome-AI-for-Research}},
+  note         = {GitHub repository}
+}
+```
+
 
 ---
 
