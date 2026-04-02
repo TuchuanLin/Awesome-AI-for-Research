@@ -21,7 +21,6 @@ Literature search, evidence gathering, contradiction spotting, and structured sy
 
 | Work | Details | External |
 | --- | --- | --- |
-| Sci-Reasoning (2026) | [Details](../catalog.md#sci-reasoning) | [Paper](https://arxiv.org/abs/2601.04577) · [Repo](https://github.com/JLiuCS/Sci-Reasoning) |
 | Synthesizing scientific literature with retrieval-augmented language models (2026) | [Details](../catalog.md#openscholar) | [Paper](https://www.nature.com/articles/s41586-025-10072-4) · [Repo](https://github.com/AkariAsai/OpenScholar) · [Project](https://openscilm.allen.ai/) |
 | InteractiveSurvey (2025) | [Details](../catalog.md#interactivesurvey) | [Paper](https://arxiv.org/abs/2504.08762) · [Repo](https://github.com/TechnicolorGUO/InteractiveSurvey) · [Project](https://technicolorguo.github.io/InteractiveSurvey/) |
 | PaSa (2025) | [Details](../catalog.md#pasa) | [Paper](https://arxiv.org/abs/2501.10120) · [Repo](https://github.com/bytedance/pasa) · [Project](https://pasa-agent.ai/) |
@@ -41,7 +40,6 @@ Hypothesis generation, gap finding, analogical search, and research framing.
 
 | Work | Details | External |
 | --- | --- | --- |
-| Sci-Reasoning (2026) | [Details](../catalog.md#sci-reasoning) | [Paper](https://arxiv.org/abs/2601.04577) · [Repo](https://github.com/JLiuCS/Sci-Reasoning) |
 | AI co-scientist (2025) | [Details](../catalog.md#ai-co-scientist) | [Paper](https://arxiv.org/abs/2502.18864) · [Blog](https://blog.google/feed/google-research-ai-co-scientist/) |
 | AlphaGo Moment for Model Architecture Discovery (2025) | [Details](../catalog.md#alpha-go-moment) | [Paper](https://arxiv.org/abs/2507.18074) · [Repo](https://github.com/GAIR-NLP/ASI-Arch) |
 | The Ideation-Execution Gap (2025) | [Details](../catalog.md#ideation-execution-gap) | [Paper](https://arxiv.org/abs/2506.20803) |

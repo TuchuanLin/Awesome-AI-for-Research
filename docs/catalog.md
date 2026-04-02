@@ -116,19 +116,6 @@ Experimentation & Agent Methods · L1 · Technical report
 
 ---
 
-<a id="sci-reasoning"></a>
-
-### Sci-Reasoning (2026)
-
-Research Ideation · L1 · Ideate · Preprint
-
-**Links:** [Paper](https://arxiv.org/abs/2601.04577) · [Repo](https://github.com/JLiuCS/Sci-Reasoning)
-
-**Summary:** A dataset that traces high-quality papers from NeurIPS, ICML, and ICLR back to their predecessors, identifying 15 distinct innovation thinking patterns such as gap-driven reframing and cross-domain synthesis.
-
-`innovation-patterns` `reasoning-dataset` `research-process`
-
----
 
 <a id="openscholar"></a>
 

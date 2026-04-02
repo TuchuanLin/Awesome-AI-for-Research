@@ -1340,29 +1340,4 @@
     "stage_focus": "execute-experiment",
     "stage_secondary": "analyze-visualize"
   },
-  {
-    "id": "sci-reasoning",
-    "title": "Sci-Reasoning",
-    "year": 2026,
-    "section": "research-ideation",
-    "level": "l1-tools",
-    "domains": [
-      "ai"
-    ],
-    "evidence": "Preprint",
-    "human_role": "Human-driven",
-    "summary": "A dataset that traces high-quality papers from NeurIPS, ICML, and ICLR back to their predecessors, identifying 15 distinct innovation thinking patterns such as gap-driven reframing and cross-domain synthesis.",
-    "why_it_matters": "It makes the tacit reasoning behind research breakthroughs explicit and quantifiable, providing structured training signal for AI research agents and a lens for studying how scientific innovation actually works.",
-    "tags": [
-      "innovation-patterns",
-      "reasoning-dataset",
-      "research-process"
-    ],
-    "links": {
-      "paper": "https://arxiv.org/abs/2601.04577",
-      "repo": "https://github.com/JLiuCS/Sci-Reasoning"
-    },
-    "stage_focus": "ideate",
-    "stage_secondary": "discover-synthesize"
-  }
 ]

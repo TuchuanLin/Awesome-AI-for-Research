@@ -29,7 +29,6 @@ Applications in artificial intelligence research, machine learning research work
 | Claudini (2026) | [Details](../catalog.md#claudini) | [Paper](https://doi.org/10.48550/arXiv.2603.24511) · [Repo](https://github.com/romovpa/claudini) |
 | EXP-Bench (2026) | [Details](../catalog.md#exp-bench) | [Paper](https://arxiv.org/abs/2505.24785) · [Repo](https://github.com/EvolvingLMMs-Lab/EXP-Bench) |
 | Memento-Skills (2026) | [Details](../catalog.md#memento-skills) | [Paper](https://doi.org/10.48550/arXiv.2603.18743) · [Repo](https://github.com/Memento-Teams/Memento-Skills) |
-| Sci-Reasoning (2026) | [Details](../catalog.md#sci-reasoning) | [Paper](https://arxiv.org/abs/2601.04577) · [Repo](https://github.com/JLiuCS/Sci-Reasoning) |
 | Agent Laboratory (2025) | [Details](../catalog.md#agent-laboratory) | [Paper](https://arxiv.org/abs/2501.04227) · [Project](https://agentlaboratory.github.io/) |
 | AI Research Skills Library (2025) | [Details](../catalog.md#ai-research-skills) | [Repo](https://github.com/Orchestra-Research/AI-Research-SKILLs) · [Project](https://www.orchestra-research.com/) |
 | AI-Researcher (2025) | [Details](../catalog.md#ai-researcher) | [Paper](https://arxiv.org/abs/2505.18705) · [Repo](https://github.com/hkuds/ai-researcher) · [Project](https://autoresearcher.github.io/) |
