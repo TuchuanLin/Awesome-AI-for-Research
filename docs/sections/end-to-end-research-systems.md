@@ -17,6 +17,7 @@
 
 | Work | Details | External |
 | --- | --- | --- |
+| Towards a Medical AI Scientist (2026) | [Details](../catalog.md#medical-ai-scientist) | [Paper](https://arxiv.org/abs/2603.28589) |
 | ARIS (2026) | [Details](../catalog.md#aris) | [Repo](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
 | AutoResearchClaw (2026) | [Details](../catalog.md#autoresearchclaw) | [Repo](https://github.com/aiming-lab/AutoResearchClaw) |
 | Agent Laboratory (2025) | [Details](../catalog.md#agent-laboratory) | [Paper](https://arxiv.org/abs/2501.04227) · [Project](https://agentlaboratory.github.io/) |

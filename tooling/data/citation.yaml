@@ -10,7 +10,7 @@
     },
     {
       "family-names": "Xin",
-      "given-names": "Xin"
+      "given-names": "Amy"
     },
     {
       "family-names": "Yao",
@@ -23,7 +23,7 @@
   "license": "CC BY 4.0",
   "bibtex": {
     "key": "awesome_ai_for_research_2026",
-    "author": "Jing, Yi and Xin, Xin and Yao, Zijun",
+    "author": "Jing, Yi and Xin, Amy and Yao, Zijun",
     "title": "Awesome AI for Research",
     "year": 2026,
     "howpublished": "\\url{https://github.com/THU-KEG/Awesome-AI-for-Research}",

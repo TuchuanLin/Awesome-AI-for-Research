@@ -18,6 +18,20 @@ Experimentation & Agent Methods · L3 · Implement · Preprint
 
 ---
 
+<a id="medical-ai-scientist"></a>
+
+### Towards a Medical AI Scientist (2026)
+
+End-to-End Research Systems · L3 · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2603.28589)
+
+**Summary:** A clinically grounded autonomous research framework for medical idea generation, executable experimentation, and manuscript drafting across multiple clinical tasks and data modalities.
+
+`clinical-research` `evidence-grounded` `paper-generation`
+
+---
+
 <a id="autoresearch"></a>
 
 ### Autoresearch (2026)
@@ -117,10 +131,9 @@ Experimentation & Agent Methods · L3 · Preprint
 ---
 
 <a id="exp-bench"></a>
-
 ### EXP-Bench (2026)
 
-Benchmarks & Evaluation · L1 · Execute & Experiment · Conference
+System Benchmark · Conference
 
 **Links:** [Paper](https://arxiv.org/abs/2505.24785) · [Repo](https://github.com/EvolvingLMMs-Lab/EXP-Bench)
 

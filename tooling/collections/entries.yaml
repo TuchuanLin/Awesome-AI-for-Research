@@ -1291,31 +1291,6 @@
     "stage_secondary": null
   },
   {
-    "id": "exp-bench",
-    "title": "EXP-Bench",
-    "year": 2026,
-    "section": "benchmarks-evaluation",
-    "level": "l1-tools",
-    "domains": [
-      "ai"
-    ],
-    "evidence": "Conference",
-    "human_role": "Human-driven",
-    "summary": "A benchmark of 461 research tasks extracted from 51 top-tier AI papers that evaluates whether agents can formulate hypotheses, design procedures, implement code, execute experiments, and analyze results end to end.",
-    "why_it_matters": "It quantifies a critical gap in current AI agents — only 0.5% of complete experiments succeed — providing a rigorous yardstick for measuring progress on autonomous experimentation capabilities.",
-    "tags": [
-      "benchmark",
-      "experimentation",
-      "end-to-end-evaluation"
-    ],
-    "links": {
-      "paper": "https://arxiv.org/abs/2505.24785",
-      "repo": "https://github.com/EvolvingLMMs-Lab/EXP-Bench"
-    },
-    "stage_focus": "execute-experiment",
-    "stage_secondary": null
-  },
-  {
     "id": "curie",
     "title": "Curie",
     "year": 2025,
@@ -1417,6 +1392,31 @@
     },
     "stage_focus": "implement",
     "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "medical-ai-scientist",
+    "title": "Towards a Medical AI Scientist",
+    "year": 2026,
+    "sort_date": "2026-03-30",
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "biomedical"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A clinically grounded autonomous research framework for medical idea generation, executable experimentation, and manuscript drafting across multiple clinical tasks and data modalities.",
+    "why_it_matters": "It gives the repository a dedicated biomedical AI-scientist reference and shows how domain grounding, evidence traceability, and medical writing constraints change the design of autonomous research systems in healthcare.",
+    "tags": [
+      "clinical-research",
+      "evidence-grounded",
+      "paper-generation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28589"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
   },
   {
     "id": "autoagent",
