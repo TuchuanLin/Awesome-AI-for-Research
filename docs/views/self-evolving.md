@@ -7,6 +7,7 @@ Use this page to find systems explicitly tagged `self-evolving`.
 ## On this page
 
 - [Autoresearch](../catalog.md#autoresearch) (2026)
+- [AutoAgent](../catalog.md#autoagent) (2026)
 - [AutoResearchClaw](../catalog.md#autoresearchclaw) (2026)
 - [Memento-Skills](../catalog.md#memento-skills) (2026)
 - [Darwin Godel Machine](../catalog.md#darwin-godel-machine) (2025)
@@ -16,6 +17,7 @@ Use this page to find systems explicitly tagged `self-evolving`.
 | Work | Details | External |
 | --- | --- | --- |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
+| AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoResearchClaw (2026) | [Details](../catalog.md#autoresearchclaw) | [Repo](https://github.com/aiming-lab/AutoResearchClaw) |
 | Memento-Skills (2026) | [Details](../catalog.md#memento-skills) | [Paper](https://doi.org/10.48550/arXiv.2603.18743) · [Repo](https://github.com/Memento-Teams/Memento-Skills) |
 | Darwin Godel Machine (2025) | [Details](../catalog.md#darwin-godel-machine) | [Paper](https://arxiv.org/abs/2505.22954) · [Repo](https://github.com/jennyzzt/dgm) · [Blog](https://sakana.ai/dgm/) |

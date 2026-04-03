@@ -1340,4 +1340,106 @@
     "stage_focus": "execute-experiment",
     "stage_secondary": "analyze-visualize"
   },
+  {
+    "id": "shinkaevolve",
+    "title": "ShinkaEvolve",
+    "year": 2025,
+    "sort_date": "2025-09-17",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "computer-science"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An open-source evolutionary code-search framework that uses novelty-aware sampling and adaptive model selection to discover efficient solutions, agent scaffolds, and training losses across diverse computational tasks.",
+    "why_it_matters": "It is a strong open-source counterpart to AlphaEvolve because it shows that broad discovery performance can be reproduced with explicit search innovations and far fewer evaluations.",
+    "tags": [
+      "evolutionary-search",
+      "sample-efficiency",
+      "open-source"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.19349",
+      "repo": "https://github.com/SakanaAI/ShinkaEvolve"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "thetaevolve",
+    "title": "ThetaEvolve",
+    "year": 2025,
+    "sort_date": "2025-11-28",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "math"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An open-source test-time learning framework that combines evolutionary program search with optional reinforcement learning so models can keep improving while tackling open optimization problems.",
+    "why_it_matters": "It extends program evolution beyond inference-only search by showing that small open models can internalize and transfer stronger evolving capabilities through test-time RL.",
+    "tags": [
+      "test-time-learning",
+      "reinforcement-learning",
+      "program-evolution"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.23473",
+      "repo": "https://github.com/ypwang61/ThetaEvolve"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "meta-harness",
+    "title": "Meta-Harness",
+    "year": 2026,
+    "sort_date": "2026-03-30",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An outer-loop coding-agent system that optimizes LLM harness code by inspecting prior source, scores, and execution traces through a filesystem instead of relying on compressed feedback.",
+    "why_it_matters": "It turns harness engineering into a trace-aware code-search problem and shows that richer feedback can outperform both hand-designed harnesses and text-only optimizers on real LLM tasks.",
+    "tags": [
+      "harness-engineering",
+      "coding-agent",
+      "trace-aware-search"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28052",
+      "project": "https://yoonholee.com/meta-harness/"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "autoagent",
+    "title": "AutoAgent",
+    "year": 2026,
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Repo only",
+    "human_role": "Mostly automated",
+    "summary": "A repo-native autonomous harness engineering loop that rewrites an agent's prompt, tools, configuration, and orchestration against benchmark tasks, then keeps or discards changes based on score.",
+    "why_it_matters": "It is a useful bridge between autoresearch-style self-improvement and harness engineering because the optimization target is the agent stack itself, expressed directly as editable repo state and benchmark runs.",
+    "tags": [
+      "harness-engineering",
+      "self-evolving",
+      "benchmark-driven"
+    ],
+    "links": {
+      "repo": "https://github.com/kevinrgu/autoagent/tree/main"
+    },
+    "stage_focus": "implement",
+    "stage_secondary": "execute-experiment"
+  }
 ]

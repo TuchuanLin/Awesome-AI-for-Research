@@ -4,6 +4,20 @@
 
 This page centralizes the detailed records referenced across section pages, grouped views, and benchmark indexes. Items are sorted newest-first.
 
+<a id="meta-harness"></a>
+
+### Meta-Harness (2026)
+
+Experimentation & Agent Methods · L3 · Implement · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/)
+
+**Summary:** An outer-loop coding-agent system that optimizes LLM harness code by inspecting prior source, scores, and execution traces through a filesystem instead of relying on compressed feedback.
+
+`harness-engineering` `coding-agent` `trace-aware-search`
+
+---
+
 <a id="autoresearch"></a>
 
 ### Autoresearch (2026)
@@ -43,6 +57,20 @@ End-to-End Research Systems · L2 · Repo only
 **Summary:** A lightweight Markdown-only skill stack for autonomous ML research, with idea discovery, experiment bridging, cross-model review loops, and paper-writing workflows.
 
 `markdown-skills` `cross-model-review` `experiment-automation`
+
+---
+
+<a id="autoagent"></a>
+
+### AutoAgent (2026)
+
+Experimentation & Agent Methods · L3 · Implement · Repo only
+
+**Links:** [Repo](https://github.com/kevinrgu/autoagent/tree/main)
+
+**Summary:** A repo-native autonomous harness engineering loop that rewrites an agent's prompt, tools, configuration, and orchestration against benchmark tasks, then keeps or discards changes based on score.
+
+`harness-engineering` `self-evolving` `benchmark-driven`
 
 ---
 
@@ -116,7 +144,6 @@ Experimentation & Agent Methods · L1 · Technical report
 
 ---
 
-
 <a id="openscholar"></a>
 
 ### Synthesizing scientific literature with retrieval-augmented language models (2026)
@@ -128,6 +155,34 @@ Literature Discovery & Synthesis · L1 · Discover & Synthesize · Journal
 **Summary:** The OpenScholar paper introduces a retrieval-augmented literature synthesis model and multi-domain evaluation for citation-grounded long-form scientific answers.
 
 `literature-synthesis` `rag` `citation-grounded`
+
+---
+
+<a id="thetaevolve"></a>
+
+### ThetaEvolve (2025)
+
+Experimentation & Agent Methods · L3 · Implement · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve)
+
+**Summary:** An open-source test-time learning framework that combines evolutionary program search with optional reinforcement learning so models can keep improving while tackling open optimization problems.
+
+`test-time-learning` `reinforcement-learning` `program-evolution`
+
+---
+
+<a id="shinkaevolve"></a>
+
+### ShinkaEvolve (2025)
+
+Experimentation & Agent Methods · L3 · Implement · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve)
+
+**Summary:** An open-source evolutionary code-search framework that uses novelty-aware sampling and adaptive model selection to discover efficient solutions, agent scaffolds, and training losses across diverse computational tasks.
+
+`evolutionary-search` `sample-efficiency` `open-source`
 
 ---
 

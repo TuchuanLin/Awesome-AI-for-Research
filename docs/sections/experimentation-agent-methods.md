@@ -19,11 +19,15 @@
 
 | Work | Details | External |
 | --- | --- | --- |
+| Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
 | Learning to Discover at Test Time (2026) | [Details](../catalog.md#ttt-discover) | [Paper](https://doi.org/10.48550/arXiv.2601.16175) · [Project](https://test-time-training.github.io/discover/) |
+| AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |
 | Claudini (2026) | [Details](../catalog.md#claudini) | [Paper](https://doi.org/10.48550/arXiv.2603.24511) · [Repo](https://github.com/romovpa/claudini) |
 | Memento-Skills (2026) | [Details](../catalog.md#memento-skills) | [Paper](https://doi.org/10.48550/arXiv.2603.18743) · [Repo](https://github.com/Memento-Teams/Memento-Skills) |
+| ThetaEvolve (2025) | [Details](../catalog.md#thetaevolve) | [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve) |
+| ShinkaEvolve (2025) | [Details](../catalog.md#shinkaevolve) | [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve) |
 | AlphaEvolve (2025) | [Details](../catalog.md#alphaevolve) | [Paper](https://arxiv.org/abs/2506.13131) · [Blog](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 | Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator (2025) | [Details](../catalog.md#agentic-physics-experiments) | [Paper](https://arxiv.org/abs/2509.17255) |
 | AgentSociety (2025) | [Details](../catalog.md#agentsociety) | [Paper](https://arxiv.org/abs/2502.08691) · [Repo](https://github.com/tsinghua-fib-lab/AgentSociety) · [Project](https://agentsociety.readthedocs.io/) |

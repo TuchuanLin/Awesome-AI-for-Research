@@ -6,13 +6,13 @@ Use this page to find systems grouped by application domain.
 
 ## On this page
 
-- [Artificial Intelligence](#ai) (21)
+- [Artificial Intelligence](#ai) (22)
 - [Biomedical](#biomedical) (3)
 - [Chemistry](#chemistry) (2)
-- [Computer Science](#computer-science) (3)
+- [Computer Science](#computer-science) (4)
 - [General](#general) (19)
 - [Materials Science](#materials-science) (2)
-- [Math](#math) (2)
+- [Math](#math) (3)
 - [Physics](#physics) (2)
 - [Social Science](#social-science) (2)
 
@@ -23,8 +23,10 @@ Applications in artificial intelligence research, machine learning research work
 
 | Work | Details | External |
 | --- | --- | --- |
+| Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
 | ARIS (2026) | [Details](../catalog.md#aris) | [Repo](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
+| AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoResearchClaw (2026) | [Details](../catalog.md#autoresearchclaw) | [Repo](https://github.com/aiming-lab/AutoResearchClaw) |
 | Claudini (2026) | [Details](../catalog.md#claudini) | [Paper](https://doi.org/10.48550/arXiv.2603.24511) · [Repo](https://github.com/romovpa/claudini) |
 | EXP-Bench (2026) | [Details](../catalog.md#exp-bench) | [Paper](https://arxiv.org/abs/2505.24785) · [Repo](https://github.com/EvolvingLMMs-Lab/EXP-Bench) |
@@ -79,6 +81,7 @@ Applications in non-AI computer science research such as formal methods, program
 | Work | Details | External |
 | --- | --- | --- |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |
+| ShinkaEvolve (2025) | [Details](../catalog.md#shinkaevolve) | [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve) |
 | AlphaEvolve (2025) | [Details](../catalog.md#alphaevolve) | [Paper](https://arxiv.org/abs/2506.13131) · [Blog](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 | Curie (2025) | [Details](../catalog.md#curie) | [Paper](https://arxiv.org/abs/2502.16069) · [Repo](https://github.com/Just-Curie/Curie) |
 
@@ -132,6 +135,7 @@ Applications in mathematical reasoning, theorem proving, and formal proof discov
 
 | Work | Details | External |
 | --- | --- | --- |
+| ThetaEvolve (2025) | [Details](../catalog.md#thetaevolve) | [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve) |
 | Prover Agent (2025) | [Details](../catalog.md#prover-agent) | [Paper](https://arxiv.org/abs/2506.19923) · [Repo](https://github.com/kAIto47802/Prover-Agent) |
 | Solving olympiad geometry without human demonstrations (2024) | [Details](../catalog.md#alphageometry) | [Paper](https://www.nature.com/articles/s41586-023-06747-5) · [Repo](https://github.com/google-deepmind/alphageometry) |
 

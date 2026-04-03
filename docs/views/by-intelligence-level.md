@@ -8,9 +8,9 @@ This view makes the role ladder tangible, from human-driven tools to AI-driven s
 
 ## On this page
 
-- [L1 Tools](#l1-tools) (21)
+- [L1 Tools](#l1-tools) (20)
 - [L2 Collaborators](#l2-collaborators) (17)
-- [L3 Systems](#l3-systems) (16)
+- [L3 Systems](#l3-systems) (20)
 
 <a id="l1-tools"></a>
 ## L1 Tools
@@ -76,10 +76,14 @@ AI drives the loop. The system owns substantial execution and iteration, while h
 
 | Work | Details | External |
 | --- | --- | --- |
+| Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
 | Learning to Discover at Test Time (2026) | [Details](../catalog.md#ttt-discover) | [Paper](https://doi.org/10.48550/arXiv.2601.16175) · [Project](https://test-time-training.github.io/discover/) |
+| AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoResearchClaw (2026) | [Details](../catalog.md#autoresearchclaw) | [Repo](https://github.com/aiming-lab/AutoResearchClaw) |
 | Claudini (2026) | [Details](../catalog.md#claudini) | [Paper](https://doi.org/10.48550/arXiv.2603.24511) · [Repo](https://github.com/romovpa/claudini) |
+| ThetaEvolve (2025) | [Details](../catalog.md#thetaevolve) | [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve) |
+| ShinkaEvolve (2025) | [Details](../catalog.md#shinkaevolve) | [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve) |
 | AlphaEvolve (2025) | [Details](../catalog.md#alphaevolve) | [Paper](https://arxiv.org/abs/2506.13131) · [Blog](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 | Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator (2025) | [Details](../catalog.md#agentic-physics-experiments) | [Paper](https://arxiv.org/abs/2509.17255) |
 | AI-Researcher (2025) | [Details](../catalog.md#ai-researcher) | [Paper](https://arxiv.org/abs/2505.18705) · [Repo](https://github.com/hkuds/ai-researcher) · [Project](https://autoresearcher.github.io/) |

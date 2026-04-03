@@ -6,11 +6,11 @@ Use this page when you want to find systems by the stage of research they most c
 
 ## On this page
 
-- [Discover & Synthesize](#discover-synthesize) (10)
-- [Ideate](#ideate) (8)
+- [Discover & Synthesize](#discover-synthesize) (9)
+- [Ideate](#ideate) (7)
 - [Plan & Design](#plan-design) (2)
-- [Implement](#implement) (4)
-- [Execute & Experiment](#execute-experiment) (17)
+- [Implement](#implement) (8)
+- [Execute & Experiment](#execute-experiment) (21)
 - [Analyze & Visualize](#analyze-visualize) (8)
 - [Write & Review](#write-review) (6)
 
@@ -69,7 +69,11 @@ Code generation, pipeline assembly, environment setup, and artifact construction
 
 | Work | Details | External |
 | --- | --- | --- |
+| Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
+| AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |
+| ThetaEvolve (2025) | [Details](../catalog.md#thetaevolve) | [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve) |
+| ShinkaEvolve (2025) | [Details](../catalog.md#shinkaevolve) | [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve) |
 | AlphaEvolve (2025) | [Details](../catalog.md#alphaevolve) | [Paper](https://arxiv.org/abs/2506.13131) · [Blog](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 | AIDE (2025) | [Details](../catalog.md#aide) | [Paper](https://arxiv.org/abs/2502.13138) · [Repo](https://github.com/WecoAI/aideml) · [Project](https://www.aide.ml/) |
 | An AI system to help scientists write expert-level empirical software (2025) | [Details](../catalog.md#expert-level-empirical-software) | [Paper](https://arxiv.org/abs/2509.06503) |
@@ -83,8 +87,12 @@ Running experiments, tool orchestration, adaptive retries, and lab-in-the-loop e
 
 | Work | Details | External |
 | --- | --- | --- |
+| Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
+| AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |
 | EXP-Bench (2026) | [Details](../catalog.md#exp-bench) | [Paper](https://arxiv.org/abs/2505.24785) · [Repo](https://github.com/EvolvingLMMs-Lab/EXP-Bench) |
+| ThetaEvolve (2025) | [Details](../catalog.md#thetaevolve) | [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve) |
+| ShinkaEvolve (2025) | [Details](../catalog.md#shinkaevolve) | [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve) |
 | AlphaEvolve (2025) | [Details](../catalog.md#alphaevolve) | [Paper](https://arxiv.org/abs/2506.13131) · [Blog](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 | Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator (2025) | [Details](../catalog.md#agentic-physics-experiments) | [Paper](https://arxiv.org/abs/2509.17255) |
 | AgentSociety (2025) | [Details](../catalog.md#agentsociety) | [Paper](https://arxiv.org/abs/2502.08691) · [Repo](https://github.com/tsinghua-fib-lab/AgentSociety) · [Project](https://agentsociety.readthedocs.io/) |
