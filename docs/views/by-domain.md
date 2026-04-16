@@ -6,11 +6,11 @@ Use this page to find systems grouped by application domain.
 
 ## On this page
 
-- [Artificial Intelligence](#ai) (24)
-- [Biomedical](#biomedical) (3)
+- [Artificial Intelligence](#ai) (25)
+- [Biomedical](#biomedical) (4)
 - [Chemistry](#chemistry) (2)
 - [Computer Science](#computer-science) (4)
-- [General](#general) (19)
+- [General](#general) (20)
 - [Materials Science](#materials-science) (2)
 - [Math](#math) (3)
 - [Physics](#physics) (2)
@@ -26,12 +26,13 @@ Applications in artificial intelligence research, machine learning research work
 | AutoSOTA (2026) | [Details](../catalog.md#autosota) | [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/) |
 | Automated Weak-to-Strong Researcher (2026) | [Details](../catalog.md#automated-w2s-researcher) | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
 | Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
+| EvoScientist (2026) | [Details](../catalog.md#evoscientist) | [Paper](https://arxiv.org/abs/2603.08127) · [Repo](https://github.com/EvoScientist/EvoScientist) · [Project](https://evoscientist.ai) |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
+| InternAgent (2026) | [Details](../catalog.md#internagent) | [Paper](https://arxiv.org/abs/2602.08990) · [Repo](https://github.com/InternScience/InternAgent) |
 | ARIS (2026) | [Details](../catalog.md#aris) | [Repo](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoResearchClaw (2026) | [Details](../catalog.md#autoresearchclaw) | [Repo](https://github.com/aiming-lab/AutoResearchClaw) |
 | Claudini (2026) | [Details](../catalog.md#claudini) | [Paper](https://doi.org/10.48550/arXiv.2603.24511) · [Repo](https://github.com/romovpa/claudini) |
-| EXP-Bench (2026) | [Details](../catalog.md#exp-bench) | [Paper](https://arxiv.org/abs/2505.24785) · [Repo](https://github.com/EvolvingLMMs-Lab/EXP-Bench) |
 | Memento-Skills (2026) | [Details](../catalog.md#memento-skills) | [Paper](https://doi.org/10.48550/arXiv.2603.18743) · [Repo](https://github.com/Memento-Teams/Memento-Skills) |
 | Agent Laboratory (2025) | [Details](../catalog.md#agent-laboratory) | [Paper](https://arxiv.org/abs/2501.04227) · [Project](https://agentlaboratory.github.io/) |
 | AI Research Skills Library (2025) | [Details](../catalog.md#ai-research-skills) | [Repo](https://github.com/Orchestra-Research/AI-Research-SKILLs) · [Project](https://www.orchestra-research.com/) |
@@ -57,6 +58,7 @@ Applications in biology, medicine, drug discovery, and biomedical literature.
 
 | Work | Details | External |
 | --- | --- | --- |
+| Towards a Medical AI Scientist (2026) | [Details](../catalog.md#medical-ai-scientist) | [Paper](https://arxiv.org/abs/2603.28589) |
 | AI co-scientist (2025) | [Details](../catalog.md#ai-co-scientist) | [Paper](https://arxiv.org/abs/2502.18864) · [Blog](https://blog.google/feed/google-research-ai-co-scientist/) |
 | Robin (2025) | [Details](../catalog.md#robin) | [Paper](https://doi.org/10.48550/arXiv.2505.13400) · [Repo](https://github.com/Future-House/robin) |
 | AlphaFold 3 (2024) | [Details](../catalog.md#alphafold-3) | [Paper](https://doi.org/10.1038/s41586-024-07487-w) · [Repo](https://github.com/google-deepmind/alphafold3) · [Project](https://alphafoldserver.com/welcome) |
@@ -96,6 +98,7 @@ Cross-domain or discipline-agnostic systems for AI-driven research workflows, li
 
 | Work | Details | External |
 | --- | --- | --- |
+| InternAgent (2026) | [Details](../catalog.md#internagent) | [Paper](https://arxiv.org/abs/2602.08990) · [Repo](https://github.com/InternScience/InternAgent) |
 | Learning to Discover at Test Time (2026) | [Details](../catalog.md#ttt-discover) | [Paper](https://doi.org/10.48550/arXiv.2601.16175) · [Project](https://test-time-training.github.io/discover/) |
 | Synthesizing scientific literature with retrieval-augmented language models (2026) | [Details](../catalog.md#openscholar) | [Paper](https://www.nature.com/articles/s41586-025-10072-4) · [Repo](https://github.com/AkariAsai/OpenScholar) · [Project](https://openscilm.allen.ai/) |
 | An AI system to help scientists write expert-level empirical software (2025) | [Details](../catalog.md#expert-level-empirical-software) | [Paper](https://arxiv.org/abs/2509.06503) |

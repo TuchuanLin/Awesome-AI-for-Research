@@ -46,6 +46,34 @@ Experimentation & Agent Methods · L3 · Implement · Preprint
 
 ---
 
+<a id="medical-ai-scientist"></a>
+
+### Towards a Medical AI Scientist (2026)
+
+End-to-End Research Systems · L3 · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2603.28589)
+
+**Summary:** A clinically grounded autonomous research framework for medical idea generation, executable experimentation, and manuscript drafting across multiple clinical tasks and data modalities.
+
+`clinical-research` `evidence-grounded` `paper-generation`
+
+---
+
+<a id="evoscientist"></a>
+
+### EvoScientist (2026)
+
+End-to-End Research Systems · L3 · Technical report
+
+**Links:** [Paper](https://arxiv.org/abs/2603.08127) · [Repo](https://github.com/EvoScientist/EvoScientist) · [Project](https://evoscientist.ai)
+
+**Summary:** A multi-agent evolving framework for end-to-end scientific discovery that uses persistent memory and evolutionary self-improvement across research, engineering, and evolution manager agents.
+
+`self-evolving` `multi-agent` `end-to-end`
+
+---
+
 <a id="autoresearch"></a>
 
 ### Autoresearch (2026)
@@ -57,6 +85,20 @@ Experimentation & Agent Methods · L3 · Repo only
 **Summary:** A self-improving AI research repo where agents iteratively rewrite a small training stack, run short experiments, and keep better variants.
 
 `self-evolving` `single-gpu` `autonomous-research`
+
+---
+
+<a id="internagent"></a>
+
+### InternAgent (2026)
+
+End-to-End Research Systems · L3 · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2602.08990) · [Repo](https://github.com/InternScience/InternAgent)
+
+**Summary:** A unified agentic framework for long-horizon autonomous scientific discovery that coordinates generation, verification, and evolution subsystems across both computational and empirical research domains.
+
+`multi-agent` `autonomous-research` `cross-domain`
 
 ---
 
@@ -145,10 +187,9 @@ Experimentation & Agent Methods · L3 · Preprint
 ---
 
 <a id="exp-bench"></a>
-
 ### EXP-Bench (2026)
 
-Benchmarks & Evaluation · L1 · Execute & Experiment · Conference
+System Benchmark · Conference
 
 **Links:** [Paper](https://arxiv.org/abs/2505.24785) · [Repo](https://github.com/EvolvingLMMs-Lab/EXP-Bench)
 
@@ -182,6 +223,19 @@ System Benchmark · Benchmark release
 **Summary:** A benchmark for measuring whether AI agents can autonomously post-train base language models, giving each agent four small base models, a single H100 GPU, and a ten-hour time limit to improve performance across seven evaluation benchmarks.
 
 `post-training` `ai-r-d-automation` `agent-evaluation`
+
+---
+
+<a id="researchclawbench"></a>
+### ResearchClawBench (2026)
+
+System Benchmark · Scientific Reasoning · Benchmark release
+
+**Links:** [Repo](https://github.com/InternScience/ResearchClawBench) · [Benchmark](https://internscience.github.io/ResearchClawBench-Home/)
+
+**Summary:** A benchmark of 40 expert-curated scientific research tasks across 10 disciplines that evaluates whether coding agents can move from raw datasets and related work to publication-style reports scored against human papers with weighted multimodal checklists.
+
+`scientific-research` `paper-grounded-evaluation` `multimodal-checklists`
 
 ---
 

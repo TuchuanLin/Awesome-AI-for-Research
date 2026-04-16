@@ -1,5 +1,46 @@
 [
   {
+    "id": "exp-bench",
+    "title": "EXP-Bench",
+    "year": 2026,
+    "evidence": "Conference",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark of 461 research tasks extracted from 51 top-tier AI papers that evaluates whether agents can formulate hypotheses, design procedures, implement code, execute experiments, and analyze results end to end.",
+    "why_it_matters": "It quantifies a critical gap in current AI agents — only 0.5% of complete experiments succeed — providing a rigorous yardstick for measuring progress on autonomous experimentation capabilities.",
+    "tags": [
+      "benchmark",
+      "experimentation",
+      "end-to-end-evaluation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.24785",
+      "repo": "https://github.com/EvolvingLMMs-Lab/EXP-Bench"
+    }
+  },
+  {
+    "id": "researchclawbench",
+    "title": "ResearchClawBench",
+    "year": 2026,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark",
+      "Scientific Reasoning"
+    ],
+    "summary": "A benchmark of 40 expert-curated scientific research tasks across 10 disciplines that evaluates whether coding agents can move from raw datasets and related work to publication-style reports scored against human papers with weighted multimodal checklists.",
+    "why_it_matters": "It is a practical end-to-end benchmark for scientific research agents because it combines autonomous execution, paper-grounded evaluation, and public multi-agent leaderboard tracking in one open benchmark stack.",
+    "tags": [
+      "scientific-research",
+      "paper-grounded-evaluation",
+      "multimodal-checklists"
+    ],
+    "links": {
+      "repo": "https://github.com/InternScience/ResearchClawBench",
+      "benchmark": "https://internscience.github.io/ResearchClawBench-Home/"
+    }
+  },
+  {
     "id": "scienceagentbench",
     "title": "ScienceAgentBench",
     "year": 2024,

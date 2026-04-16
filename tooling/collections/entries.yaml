@@ -1291,31 +1291,6 @@
     "stage_secondary": null
   },
   {
-    "id": "exp-bench",
-    "title": "EXP-Bench",
-    "year": 2026,
-    "section": "benchmarks-evaluation",
-    "level": "l1-tools",
-    "domains": [
-      "ai"
-    ],
-    "evidence": "Conference",
-    "human_role": "Human-driven",
-    "summary": "A benchmark of 461 research tasks extracted from 51 top-tier AI papers that evaluates whether agents can formulate hypotheses, design procedures, implement code, execute experiments, and analyze results end to end.",
-    "why_it_matters": "It quantifies a critical gap in current AI agents — only 0.5% of complete experiments succeed — providing a rigorous yardstick for measuring progress on autonomous experimentation capabilities.",
-    "tags": [
-      "benchmark",
-      "experimentation",
-      "end-to-end-evaluation"
-    ],
-    "links": {
-      "paper": "https://arxiv.org/abs/2505.24785",
-      "repo": "https://github.com/EvolvingLMMs-Lab/EXP-Bench"
-    },
-    "stage_focus": "execute-experiment",
-    "stage_secondary": null
-  },
-  {
     "id": "curie",
     "title": "Curie",
     "year": 2025,
@@ -1419,6 +1394,31 @@
     "stage_secondary": "execute-experiment"
   },
   {
+    "id": "medical-ai-scientist",
+    "title": "Towards a Medical AI Scientist",
+    "year": 2026,
+    "sort_date": "2026-03-30",
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "biomedical"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A clinically grounded autonomous research framework for medical idea generation, executable experimentation, and manuscript drafting across multiple clinical tasks and data modalities.",
+    "why_it_matters": "It gives the repository a dedicated biomedical AI-scientist reference and shows how domain grounding, evidence traceability, and medical writing constraints change the design of autonomous research systems in healthcare.",
+    "tags": [
+      "clinical-research",
+      "evidence-grounded",
+      "paper-generation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28589"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
     "id": "autoagent",
     "title": "AutoAgent",
     "year": 2026,
@@ -1441,6 +1441,60 @@
     },
     "stage_focus": "implement",
     "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "evoscientist",
+    "title": "EvoScientist",
+    "year": 2026,
+    "sort_date": "2026-03-10",
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Technical report",
+    "human_role": "Mostly automated",
+    "summary": "A multi-agent evolving framework for end-to-end scientific discovery that uses persistent memory and evolutionary self-improvement across research, engineering, and evolution manager agents.",
+    "why_it_matters": "It combines multi-agent orchestration with evolutionary self-improvement and persistent memory, making it a strong reference for systems that learn from prior research cycles rather than starting each run from scratch.",
+    "tags": [
+      "self-evolving",
+      "multi-agent",
+      "end-to-end"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.08127",
+      "repo": "https://github.com/EvoScientist/EvoScientist",
+      "project": "https://evoscientist.ai"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
+  },
+  {
+    "id": "internagent",
+    "title": "InternAgent",
+    "year": 2026,
+    "sort_date": "2026-02-09",
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai",
+      "general"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A unified agentic framework for long-horizon autonomous scientific discovery that coordinates generation, verification, and evolution subsystems across both computational and empirical research domains.",
+    "why_it_matters": "It bridges computational and empirical research within a single unified system, demonstrating cross-domain autonomous discovery across algorithm design, earth sciences, life sciences, and physical sciences.",
+    "tags": [
+      "multi-agent",
+      "autonomous-research",
+      "cross-domain"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.08990",
+      "repo": "https://github.com/InternScience/InternAgent"
+    },
+    "stage_focus": null,
+    "stage_secondary": null
   },
   {
     "id": "autosota",
