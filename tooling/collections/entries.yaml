@@ -1441,5 +1441,57 @@
     },
     "stage_focus": "implement",
     "stage_secondary": "execute-experiment"
+  },
+  {
+    "id": "autosota",
+    "title": "AutoSOTA",
+    "year": 2026,
+    "sort_date": "2026-04-07",
+    "section": "end-to-end-research-systems",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Full automation claim",
+    "summary": "An end-to-end automated research system that takes top-tier AI papers and autonomously replicates and optimizes them to discover new state-of-the-art models, using eight specialized agents for code grounding, environment setup, experiment tracking, idea generation, and validity supervision.",
+    "why_it_matters": "It demonstrates that fully automated research pipelines can produce verified new SOTA results at scale across real top-tier AI conference papers, while its explicit validity-supervision agent addresses the spurious-gains problem that undermines trust in autonomous experimentation.",
+    "tags": [
+      "end-to-end",
+      "multi-agent",
+      "sota-optimization"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.05550",
+      "repo": "https://github.com/tsinghua-fib-lab/AutoSOTA",
+      "project": "https://tsinghua-fib-lab.github.io/AutoSOTA/"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "implement"
+  },
+  {
+    "id": "automated-w2s-researcher",
+    "title": "Automated Weak-to-Strong Researcher",
+    "year": 2026,
+    "sort_date": "2026-04-01",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Organization report",
+    "human_role": "Mostly automated",
+    "summary": "An autonomous AI agent system built on Claude that proposes ideas, runs experiments, and iterates on the weak-to-strong supervision alignment problem, where a weaker model's feedback is used to train a stronger model.",
+    "why_it_matters": "It is a strong reference point for AI-driven alignment research because it shows autonomous agents outperforming human researcher baselines on an outcome-gradable open problem, demonstrating that AI can accelerate safety-critical research.",
+    "tags": [
+      "alignment-research",
+      "autonomous-agent",
+      "weak-to-strong"
+    ],
+    "links": {
+      "blog": "https://alignment.anthropic.com/2026/automated-w2s-researcher/"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "ideate"
   }
 ]

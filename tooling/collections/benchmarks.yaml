@@ -248,5 +248,26 @@
       "paper": "https://arxiv.org/abs/2310.03302",
       "repo": "https://github.com/snap-stanford/MLAgentBench"
     }
+  },
+  {
+    "id": "posttrainbench",
+    "title": "PostTrainBench",
+    "year": 2026,
+    "evidence": "Benchmark release",
+    "types": [
+      "System Benchmark"
+    ],
+    "summary": "A benchmark for measuring whether AI agents can autonomously post-train base language models, giving each agent four small base models, a single H100 GPU, and a ten-hour time limit to improve performance across seven evaluation benchmarks.",
+    "why_it_matters": "It is a high-signal benchmark anchor for AI R&D automation because it measures whether coding agents can execute meaningful model training workflows end to end, while also surfacing reward hacking and contamination behaviors.",
+    "tags": [
+      "post-training",
+      "ai-r-d-automation",
+      "agent-evaluation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.08640",
+      "repo": "https://github.com/aisa-group/PostTrainBench",
+      "benchmark": "https://posttrainbench.com/"
+    }
   }
 ]

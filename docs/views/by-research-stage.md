@@ -7,10 +7,10 @@ Use this page when you want to find systems by the stage of research they most c
 ## On this page
 
 - [Discover & Synthesize](#discover-synthesize) (9)
-- [Ideate](#ideate) (7)
+- [Ideate](#ideate) (8)
 - [Plan & Design](#plan-design) (2)
-- [Implement](#implement) (8)
-- [Execute & Experiment](#execute-experiment) (21)
+- [Implement](#implement) (9)
+- [Execute & Experiment](#execute-experiment) (23)
 - [Analyze & Visualize](#analyze-visualize) (8)
 - [Write & Review](#write-review) (6)
 
@@ -40,6 +40,7 @@ Hypothesis generation, gap finding, analogical search, and research framing.
 
 | Work | Details | External |
 | --- | --- | --- |
+| Automated Weak-to-Strong Researcher (2026) | [Details](../catalog.md#automated-w2s-researcher) | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
 | AI co-scientist (2025) | [Details](../catalog.md#ai-co-scientist) | [Paper](https://arxiv.org/abs/2502.18864) · [Blog](https://blog.google/feed/google-research-ai-co-scientist/) |
 | AlphaGo Moment for Model Architecture Discovery (2025) | [Details](../catalog.md#alpha-go-moment) | [Paper](https://arxiv.org/abs/2507.18074) · [Repo](https://github.com/GAIR-NLP/ASI-Arch) |
 | The Ideation-Execution Gap (2025) | [Details](../catalog.md#ideation-execution-gap) | [Paper](https://arxiv.org/abs/2506.20803) |
@@ -69,6 +70,7 @@ Code generation, pipeline assembly, environment setup, and artifact construction
 
 | Work | Details | External |
 | --- | --- | --- |
+| AutoSOTA (2026) | [Details](../catalog.md#autosota) | [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/) |
 | Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |
@@ -87,6 +89,8 @@ Running experiments, tool orchestration, adaptive retries, and lab-in-the-loop e
 
 | Work | Details | External |
 | --- | --- | --- |
+| AutoSOTA (2026) | [Details](../catalog.md#autosota) | [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/) |
+| Automated Weak-to-Strong Researcher (2026) | [Details](../catalog.md#automated-w2s-researcher) | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
 | Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |

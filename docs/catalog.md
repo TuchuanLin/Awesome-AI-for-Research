@@ -4,6 +4,34 @@
 
 This page centralizes the detailed records referenced across section pages, grouped views, and benchmark indexes. Items are sorted newest-first.
 
+<a id="autosota"></a>
+
+### AutoSOTA (2026)
+
+End-to-End Research Systems · L3 · Execute & Experiment · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/)
+
+**Summary:** An end-to-end automated research system that takes top-tier AI papers and autonomously replicates and optimizes them to discover new state-of-the-art models, using eight specialized agents for code grounding, environment setup, experiment tracking, idea generation, and validity supervision.
+
+`end-to-end` `multi-agent` `sota-optimization`
+
+---
+
+<a id="automated-w2s-researcher"></a>
+
+### Automated Weak-to-Strong Researcher (2026)
+
+Experimentation & Agent Methods · L3 · Execute & Experiment · Organization report
+
+**Links:** [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/)
+
+**Summary:** An autonomous AI agent system built on Claude that proposes ideas, runs experiments, and iterates on the weak-to-strong supervision alignment problem, where a weaker model's feedback is used to train a stronger model.
+
+`alignment-research` `autonomous-agent` `weak-to-strong`
+
+---
+
 <a id="meta-harness"></a>
 
 ### Meta-Harness (2026)
@@ -141,6 +169,19 @@ Experimentation & Agent Methods · L1 · Technical report
 **Summary:** A continually learnable agent-designing agent that externalizes reusable skills as markdown memory and updates them through a read-write reflective learning loop.
 
 `self-evolving` `continual-learning` `externalized-memory`
+
+---
+
+<a id="posttrainbench"></a>
+### PostTrainBench (2026)
+
+System Benchmark · Benchmark release
+
+**Links:** [Paper](https://arxiv.org/abs/2603.08640) · [Repo](https://github.com/aisa-group/PostTrainBench) · [Benchmark](https://posttrainbench.com/)
+
+**Summary:** A benchmark for measuring whether AI agents can autonomously post-train base language models, giving each agent four small base models, a single H100 GPU, and a ten-hour time limit to improve performance across seven evaluation benchmarks.
+
+`post-training` `ai-r-d-automation` `agent-evaluation`
 
 ---
 
