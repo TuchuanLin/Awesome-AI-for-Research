@@ -7,11 +7,11 @@ Use this page when you want to find systems by the stage of research they most c
 ## On this page
 
 - [Discover & Synthesize](#discover-synthesize) (14)
-- [Ideate](#ideate) (16)
+- [Ideate](#ideate) (19)
 - [Plan & Design](#plan-design) (4)
 - [Implement](#implement) (14)
-- [Execute & Experiment](#execute-experiment) (27)
-- [Analyze & Visualize](#analyze-visualize) (8)
+- [Execute & Experiment](#execute-experiment) (31)
+- [Analyze & Visualize](#analyze-visualize) (9)
 - [Write & Review](#write-review) (7)
 
 <a id="discover-synthesize"></a>
@@ -49,10 +49,13 @@ Hypothesis generation, gap finding, analogical search, and research framing.
 | Automated Weak-to-Strong Researcher (2026) | [Details](../catalog.md#automated-w2s-researcher) | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
 | FlowPIE (2026) | [Details](../catalog.md#flowpie) | [Paper](https://arxiv.org/abs/2603.29557) |
 | EvoIdeator (2026) | [Details](../catalog.md#evoideator) | [Paper](https://arxiv.org/abs/2603.21728) |
+| AI Can Learn Scientific Taste (2026) | [Details](../catalog.md#scientific-taste) | [Paper](https://arxiv.org/abs/2603.14473) |
 | Idea-Catalyst (2026) | [Details](../catalog.md#idea-catalyst) | [Paper](https://arxiv.org/abs/2603.12226) |
 | DeepInnovator (2026) | [Details](../catalog.md#deepinnovator) | [Paper](https://arxiv.org/abs/2602.18920) · [Repo](https://github.com/HKUDS/DeepInnovator) |
+| PiEvo (2026) | [Details](../catalog.md#pievo) | [Paper](https://arxiv.org/abs/2602.06448) |
 | Towards Execution-Grounded Automated AI Research (2026) | [Details](../catalog.md#execution-grounded-ai-research) | [Paper](https://arxiv.org/abs/2601.14525) |
 | Training AI Co-Scientists Using Rubric Rewards (2025) | [Details](../catalog.md#training-ai-co-scientists) | [Paper](https://arxiv.org/abs/2512.23707) |
+| AlphaResearch (2025) | [Details](../catalog.md#alpharesearch) | [Paper](https://arxiv.org/abs/2511.08522) |
 | Deep Ideation (2025) | [Details](../catalog.md#deep-ideation) | [Paper](https://arxiv.org/abs/2511.02238) · [Repo](https://github.com/kyZhao-1/Deep-Ideation) |
 | AI co-scientist (2025) | [Details](../catalog.md#ai-co-scientist) | [Paper](https://arxiv.org/abs/2502.18864) · [Blog](https://blog.google/feed/google-research-ai-co-scientist/) |
 | AlphaGo Moment for Model Architecture Discovery (2025) | [Details](../catalog.md#alpha-go-moment) | [Paper](https://arxiv.org/abs/2507.18074) · [Repo](https://github.com/GAIR-NLP/ASI-Arch) |
@@ -115,12 +118,16 @@ Running experiments, tool orchestration, adaptive retries, and lab-in-the-loop e
 | ASI-Evolve (2026) | [Details](../catalog.md#asi-evolve) | [Paper](https://arxiv.org/abs/2603.29640) |
 | Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | AIRA_2 (2026) | [Details](../catalog.md#aira-2) | [Paper](https://arxiv.org/abs/2603.26499) |
+| Hyperagents (2026) | [Details](../catalog.md#hyperagents) | [Paper](https://arxiv.org/abs/2603.19461) |
 | AI Scientist via Synthetic Task Scaling (2026) | [Details](../catalog.md#ai-scientist-synthetic-task) | [Paper](https://arxiv.org/abs/2603.17216) |
+| PiEvo (2026) | [Details](../catalog.md#pievo) | [Paper](https://arxiv.org/abs/2602.06448) |
 | Towards Execution-Grounded Automated AI Research (2026) | [Details](../catalog.md#execution-grounded-ai-research) | [Paper](https://arxiv.org/abs/2601.14525) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
 | AutoEvolver (2026) | [Details](../catalog.md#autoevolver) | [Repo](https://github.com/tengxiaoliu/autoevolver) · [Project](https://tengxiaoliu.github.io/autoevolver/) |
 | ThetaEvolve (2025) | [Details](../catalog.md#thetaevolve) | [Paper](https://arxiv.org/abs/2511.23473) · [Repo](https://github.com/ypwang61/ThetaEvolve) |
+| AlphaResearch (2025) | [Details](../catalog.md#alpharesearch) | [Paper](https://arxiv.org/abs/2511.08522) |
 | ShinkaEvolve (2025) | [Details](../catalog.md#shinkaevolve) | [Paper](https://arxiv.org/abs/2509.19349) · [Repo](https://github.com/SakanaAI/ShinkaEvolve) |
+| Can Language Models Discover Scaling Laws? (2025) | [Details](../catalog.md#sldagent) | [Paper](https://arxiv.org/abs/2507.21184) |
 | AlphaEvolve (2025) | [Details](../catalog.md#alphaevolve) | [Paper](https://arxiv.org/abs/2506.13131) · [Blog](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 | Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator (2025) | [Details](../catalog.md#agentic-physics-experiments) | [Paper](https://arxiv.org/abs/2509.17255) |
 | AgentSociety (2025) | [Details](../catalog.md#agentsociety) | [Paper](https://arxiv.org/abs/2502.08691) · [Repo](https://github.com/tsinghua-fib-lab/AgentSociety) · [Project](https://agentsociety.readthedocs.io/) |
@@ -146,6 +153,7 @@ Result interpretation, figure generation, statistical inspection, and error anal
 
 | Work | Details | External |
 | --- | --- | --- |
+| Can Language Models Discover Scaling Laws? (2025) | [Details](../catalog.md#sldagent) | [Paper](https://arxiv.org/abs/2507.21184) |
 | Agentic AI for Multi-Stage Physics Experiments at a Large-Scale User Facility Particle Accelerator (2025) | [Details](../catalog.md#agentic-physics-experiments) | [Paper](https://arxiv.org/abs/2509.17255) |
 | AgentSociety (2025) | [Details](../catalog.md#agentsociety) | [Paper](https://arxiv.org/abs/2502.08691) · [Repo](https://github.com/tsinghua-fib-lab/AgentSociety) · [Project](https://agentsociety.readthedocs.io/) |
 | AI Agents for Ground-Based Gamma Astronomy (2025) | [Details](../catalog.md#gamma-astronomy-agents) | [Paper](https://arxiv.org/abs/2503.00821) |

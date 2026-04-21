@@ -1992,5 +1992,135 @@
     },
     "stage_focus": null,
     "stage_secondary": null
+  },
+  {
+    "id": "alpharesearch",
+    "title": "AlphaResearch",
+    "year": 2025,
+    "sort_date": "2025-11-11",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An autonomous research agent designed to discover new algorithms on open-ended problems by iteratively proposing ideas, programming verification, and optimizing research proposals through a dual environment combining execution-based reward and simulated peer review.",
+    "why_it_matters": "It is a strong algorithm-discovery reference that combines execution feedback with simulated peer review, demonstrating that agents can discover algorithms achieving best-of-known performance on open problems.",
+    "tags": [
+      "algorithm-discovery",
+      "dual-environment",
+      "peer-review-simulation",
+      "autonomous-research"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.08522"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "ideate"
+  },
+  {
+    "id": "scientific-taste",
+    "title": "AI Can Learn Scientific Taste",
+    "year": 2026,
+    "sort_date": "2026-03-15",
+    "section": "research-ideation",
+    "level": "l2-collaborators",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Human-in-the-loop",
+    "summary": "A training paradigm using Reinforcement Learning from Community Feedback to learn scientific taste, training Scientific Judge on 700K paper pairs to judge ideas and Scientific Thinker to propose research ideas with high potential impact.",
+    "why_it_matters": "It is representative of preference-based ideation training, showing that scientific taste—the capacity to judge and propose high-impact ideas—can be learned from community feedback rather than requiring human labeling. Furthermore, the learned taste generalizes to other domains.",
+    "tags": [
+      "scientific-taste",
+      "preference-modeling",
+      "community-feedback",
+      "citation-prediction"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.14473"
+    },
+    "stage_focus": "ideate",
+    "stage_secondary": null
+  },
+  {
+    "id": "sldagent",
+    "title": "Can Language Models Discover Scaling Laws?",
+    "year": 2025,
+    "sort_date": "2025-07-27",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "An evolution-based agent that co-optimizes scaling law models and parameters to autonomously explore complex relationships between variables, curating eight diverse scaling law discovery tasks from over 5,000 experiments.",
+    "why_it_matters": "It demonstrates that AI systems can understand and improve their own scaling behavior, establishing a new paradigm where agents discover laws with better extrapolation than human-derived counterparts.",
+    "tags": [
+      "scaling-law-discovery",
+      "self-understanding",
+      "evolution-based",
+      "extrapolation"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.21184"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "analyze-visualize"
+  },
+  {
+    "id": "hyperagents",
+    "title": "Hyperagents",
+    "year": 2026,
+    "sort_date": "2026-03-19",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "Self-referential agents integrating a task agent and a meta agent into a single editable program, where the meta-level modification procedure is itself editable for metacognitive self-modification.",
+    "why_it_matters": "It extends self-improvement beyond coding domains by making the modification procedure itself editable, enabling meta-level improvements that transfer across domains and accumulate across runs.",
+    "tags": [
+      "self-evolving",
+      "metacognitive",
+      "self-referential",
+      "open-ended"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.19461"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": null
+  },
+  {
+    "id": "pievo",
+    "title": "PiEvo",
+    "year": 2026,
+    "sort_date": "2026-02-06",
+    "section": "experimentation-agent-methods",
+    "level": "l3-systems",
+    "domains": [
+      "ai"
+    ],
+    "evidence": "Preprint",
+    "human_role": "Mostly automated",
+    "summary": "A principle-evolvable framework treating scientific discovery as Bayesian optimization over an expanding principle space, integrating Information-Directed Hypothesis Selection via Gaussian Process and anomaly-driven augmentation.",
+    "why_it_matters": "It shifts the focus from searching fixed hypothesis spaces to evolving underlying scientific principles, demonstrating that principle-space optimization achieves both higher solution quality and faster convergence.",
+    "tags": [
+      "principle-evolution",
+      "bayesian-optimization",
+      "hypothesis-selection",
+      "anomaly-driven"
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.06448"
+    },
+    "stage_focus": "execute-experiment",
+    "stage_secondary": "ideate"
   }
 ]

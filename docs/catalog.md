@@ -172,6 +172,20 @@ Research Ideation · L2 · Ideate · Preprint
 
 ---
 
+<a id="hyperagents"></a>
+
+### Hyperagents (2026)
+
+Experimentation & Agent Methods · L3 · Execute & Experiment · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2603.19461)
+
+**Summary:** Self-referential agents integrating a task agent and a meta agent into a single editable program, where the meta-level modification procedure is itself editable for metacognitive self-modification.
+
+`self-evolving` `metacognitive` `self-referential` `open-ended`
+
+---
+
 <a id="ai-scientist-synthetic-task"></a>
 
 ### AI Scientist via Synthetic Task Scaling (2026)
@@ -183,6 +197,20 @@ Experimentation & Agent Methods · L2 · Execute & Experiment · Preprint
 **Summary:** A novel synthetic environment generation pipeline for machine learning agents that automatically synthesizes ML challenges compatible with SWE-agent framework, covering topic sampling, dataset proposal, and code generation.
 
 `synthetic-tasks` `training-pipeline` `ml-agents` `self-debugging`
+
+---
+
+<a id="scientific-taste"></a>
+
+### AI Can Learn Scientific Taste (2026)
+
+Research Ideation · L2 · Ideate · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2603.14473)
+
+**Summary:** A training paradigm using Reinforcement Learning from Community Feedback to learn scientific taste, training Scientific Judge on 700K paper pairs to judge ideas and Scientific Thinker to propose research ideas with high potential impact.
+
+`scientific-taste` `preference-modeling` `community-feedback` `citation-prediction`
 
 ---
 
@@ -253,6 +281,20 @@ End-to-End Research Systems · L3 · Preprint
 **Summary:** A unified agentic framework for long-horizon autonomous scientific discovery that coordinates generation, verification, and evolution subsystems across both computational and empirical research domains.
 
 `multi-agent` `autonomous-research` `cross-domain`
+
+---
+
+<a id="pievo"></a>
+
+### PiEvo (2026)
+
+Experimentation & Agent Methods · L3 · Execute & Experiment · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2602.06448)
+
+**Summary:** A principle-evolvable framework treating scientific discovery as Bayesian optimization over an expanding principle space, integrating Information-Directed Hypothesis Selection via Gaussian Process and anomaly-driven augmentation.
+
+`principle-evolution` `bayesian-optimization` `hypothesis-selection` `anomaly-driven`
 
 ---
 
@@ -462,6 +504,20 @@ Experimentation & Agent Methods · L3 · Implement · Preprint
 
 ---
 
+<a id="alpharesearch"></a>
+
+### AlphaResearch (2025)
+
+Experimentation & Agent Methods · L3 · Execute & Experiment · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2511.08522)
+
+**Summary:** An autonomous research agent designed to discover new algorithms on open-ended problems by iteratively proposing ideas, programming verification, and optimizing research proposals through a dual environment combining execution-based reward and simulated peer review.
+
+`algorithm-discovery` `dual-environment` `peer-review-simulation` `autonomous-research`
+
+---
+
 <a id="agentexpt"></a>
 
 ### AgentExpt (2025)
@@ -529,6 +585,20 @@ Experimentation & Agent Methods · L3 · Implement · Preprint
 **Summary:** An open-source evolutionary code-search framework that uses novelty-aware sampling and adaptive model selection to discover efficient solutions, agent scaffolds, and training losses across diverse computational tasks.
 
 `evolutionary-search` `sample-efficiency` `open-source`
+
+---
+
+<a id="sldagent"></a>
+
+### Can Language Models Discover Scaling Laws? (2025)
+
+Experimentation & Agent Methods · L3 · Execute & Experiment · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2507.21184)
+
+**Summary:** An evolution-based agent that co-optimizes scaling law models and parameters to autonomously explore complex relationships between variables, curating eight diverse scaling law discovery tasks from over 5,000 experiments.
+
+`scaling-law-discovery` `self-understanding` `evolution-based` `extrapolation`
 
 ---
 
