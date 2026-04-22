@@ -6,7 +6,7 @@ Use this page to find systems grouped by application domain.
 
 ## On this page
 
-- [Artificial Intelligence](#ai) (40)
+- [Artificial Intelligence](#ai) (45)
 - [Biomedical](#biomedical) (4)
 - [Chemistry](#chemistry) (2)
 - [Computer Science](#computer-science) (4)
@@ -33,12 +33,15 @@ Applications in artificial intelligence research, machine learning research work
 | Meta-Harness (2026) | [Details](../catalog.md#meta-harness) | [Paper](https://arxiv.org/abs/2603.28052) · [Project](https://yoonholee.com/meta-harness/) |
 | AIRA_2 (2026) | [Details](../catalog.md#aira-2) | [Paper](https://arxiv.org/abs/2603.26499) |
 | EvoIdeator (2026) | [Details](../catalog.md#evoideator) | [Paper](https://arxiv.org/abs/2603.21728) |
+| Hyperagents (2026) | [Details](../catalog.md#hyperagents) | [Paper](https://arxiv.org/abs/2603.19461) |
 | AI Scientist via Synthetic Task Scaling (2026) | [Details](../catalog.md#ai-scientist-synthetic-task) | [Paper](https://arxiv.org/abs/2603.17216) |
+| AI Can Learn Scientific Taste (2026) | [Details](../catalog.md#scientific-taste) | [Paper](https://arxiv.org/abs/2603.14473) |
 | Idea-Catalyst (2026) | [Details](../catalog.md#idea-catalyst) | [Paper](https://arxiv.org/abs/2603.12226) |
 | EvoScientist (2026) | [Details](../catalog.md#evoscientist) | [Paper](https://arxiv.org/abs/2603.08127) · [Repo](https://github.com/EvoScientist/EvoScientist) · [Project](https://evoscientist.ai) |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
 | DeepInnovator (2026) | [Details](../catalog.md#deepinnovator) | [Paper](https://arxiv.org/abs/2602.18920) · [Repo](https://github.com/HKUDS/DeepInnovator) |
 | InternAgent (2026) | [Details](../catalog.md#internagent) | [Paper](https://arxiv.org/abs/2602.08990) · [Repo](https://github.com/InternScience/InternAgent) |
+| PiEvo (2026) | [Details](../catalog.md#pievo) | [Paper](https://arxiv.org/abs/2602.06448) |
 | Towards Execution-Grounded Automated AI Research (2026) | [Details](../catalog.md#execution-grounded-ai-research) | [Paper](https://arxiv.org/abs/2601.14525) |
 | ARIS (2026) | [Details](../catalog.md#aris) | [Repo](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
@@ -46,9 +49,11 @@ Applications in artificial intelligence research, machine learning research work
 | Claudini (2026) | [Details](../catalog.md#claudini) | [Paper](https://doi.org/10.48550/arXiv.2603.24511) · [Repo](https://github.com/romovpa/claudini) |
 | Memento-Skills (2026) | [Details](../catalog.md#memento-skills) | [Paper](https://doi.org/10.48550/arXiv.2603.18743) · [Repo](https://github.com/Memento-Teams/Memento-Skills) |
 | Training AI Co-Scientists Using Rubric Rewards (2025) | [Details](../catalog.md#training-ai-co-scientists) | [Paper](https://arxiv.org/abs/2512.23707) |
+| AlphaResearch (2025) | [Details](../catalog.md#alpharesearch) | [Paper](https://arxiv.org/abs/2511.08522) |
 | AgentExpt (2025) | [Details](../catalog.md#agentexpt) | [Paper](https://arxiv.org/abs/2511.04921) |
 | Deep Ideation (2025) | [Details](../catalog.md#deep-ideation) | [Paper](https://arxiv.org/abs/2511.02238) · [Repo](https://github.com/kyZhao-1/Deep-Ideation) |
 | freephdlabor (2025) | [Details](../catalog.md#freephdlabor) | [Paper](https://arxiv.org/abs/2510.15624) |
+| Can Language Models Discover Scaling Laws? (2025) | [Details](../catalog.md#sldagent) | [Paper](https://arxiv.org/abs/2507.21184) |
 | Agent Laboratory (2025) | [Details](../catalog.md#agent-laboratory) | [Paper](https://arxiv.org/abs/2501.04227) · [Project](https://agentlaboratory.github.io/) |
 | AI Research Skills Library (2025) | [Details](../catalog.md#ai-research-skills) | [Repo](https://github.com/Orchestra-Research/AI-Research-SKILLs) · [Project](https://www.orchestra-research.com/) |
 | AI-Researcher (2025) | [Details](../catalog.md#ai-researcher) | [Paper](https://arxiv.org/abs/2505.18705) · [Repo](https://github.com/hkuds/ai-researcher) · [Project](https://autoresearcher.github.io/) |

@@ -6,6 +6,7 @@ Use this page to find systems explicitly tagged `self-evolving`.
 
 ## On this page
 
+- [Hyperagents](../catalog.md#hyperagents) (2026)
 - [EvoScientist](../catalog.md#evoscientist) (2026)
 - [Autoresearch](../catalog.md#autoresearch) (2026)
 - [AutoAgent](../catalog.md#autoagent) (2026)
@@ -17,6 +18,7 @@ Use this page to find systems explicitly tagged `self-evolving`.
 
 | Work | Details | External |
 | --- | --- | --- |
+| Hyperagents (2026) | [Details](../catalog.md#hyperagents) | [Paper](https://arxiv.org/abs/2603.19461) |
 | EvoScientist (2026) | [Details](../catalog.md#evoscientist) | [Paper](https://arxiv.org/abs/2603.08127) · [Repo](https://github.com/EvoScientist/EvoScientist) · [Project](https://evoscientist.ai) |
 | Autoresearch (2026) | [Details](../catalog.md#autoresearch) | [Repo](https://github.com/karpathy/autoresearch) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
