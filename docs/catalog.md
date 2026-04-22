@@ -4,6 +4,20 @@
 
 This page centralizes the detailed records referenced across section pages, grouped views, and benchmark indexes. Items are sorted newest-first.
 
+<a id="evomaster"></a>
+
+### EvoMaster (2026)
+
+Experimentation & Agent Methods · L3 · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2604.17406) · [Repo](https://github.com/sjtu-sai-agents/EvoMaster)
+
+**Summary:** Foundational evolving agent framework for Agentic Science at Scale, empowering agents to iteratively refine hypotheses, self-critique, and accumulate knowledge across experimental cycles.
+
+`self-evolving` `domain-agnostic` `knowledge-accumulation` `foundational-framework`
+
+---
+
 <a id="aiscientist-long-horizon"></a>
 
 ### AiScientist (2026)
@@ -256,6 +270,20 @@ Experimentation & Agent Methods · L3 · Repo only
 
 ---
 
+<a id="autofigure-edit"></a>
+
+### AutoFigure-Edit (2026)
+
+Research Infrastructure & Frameworks · L1 · Analyze & Visualize · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2603.06674) · [Repo](https://github.com/ResearAI/AutoFigure-Edit) · [Project](https://deepscientist.cc/)
+
+**Summary:** End-to-end system generating fully editable scientific illustrations from scientific text with flexible style adaptation through reference images, combining long-context understanding with native SVG editing.
+
+`figure-generation` `editable-output` `svg` `style-adaptation`
+
+---
+
 <a id="deepinnovator"></a>
 
 ### DeepInnovator (2026)
@@ -298,6 +326,48 @@ Experimentation & Agent Methods · L3 · Execute & Experiment · Preprint
 
 ---
 
+<a id="autofigure"></a>
+
+### AutoFigure (2026)
+
+Research Infrastructure & Frameworks · L1 · Analyze & Visualize · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2602.03828) · [Repo](https://github.com/ResearAI/AutoFigure)
+
+**Summary:** Agentic framework for generating scientific illustrations from long-form scientific text, engaging in thinking, recombination, and validation to produce publication-ready figures.
+
+`figure-generation` `scientific-illustration` `publication-ready` `agentic`
+
+---
+
+<a id="paperbanana"></a>
+
+### PaperBanana (2026)
+
+Research Infrastructure & Frameworks · L1 · Analyze & Visualize · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2601.23265)
+
+**Summary:** Agentic framework for automated generation of publication-ready academic illustrations, orchestrating specialized agents for reference retrieval, content planning, image rendering, and iterative refinement via self-critique.
+
+`figure-generation` `self-critique` `publication-ready` `ai-scientist`
+
+---
+
+<a id="scholarpeer"></a>
+
+### ScholarPeer (2026)
+
+Survey / Review Automation · L2 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2601.22638)
+
+**Summary:** Search-enabled multi-agent framework employing dual-stream process of context acquisition and active verification, using historian agent, baseline scout, and multi-aspect Q&A engine.
+
+`peer-review` `context-aware` `literature-grounded` `multi-agent`
+
+---
+
 <a id="ttt-discover"></a>
 
 ### Learning to Discover at Test Time (2026)
@@ -309,6 +379,34 @@ Experimentation & Agent Methods · L3 · Preprint
 **Summary:** A test-time training system that uses reinforcement learning on a single target problem so the model can keep improving while searching for stronger scientific and algorithmic solutions.
 
 `test-time-training` `reinforcement-learning` `scientific-discovery`
+
+---
+
+<a id="rebuttal-agent"></a>
+
+### RebuttalAgent (2026)
+
+Survey / Review Automation · L2 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2601.15715)
+
+**Summary:** First framework grounding academic rebuttal in Theory of Mind, using ToM-Strategy-Response framework to model reviewer mental state, formulate persuasion strategy, and generate evidence-based response.
+
+`rebuttal-generation` `theory-of-mind` `persuasion-strategy` `information-asymmetry`
+
+---
+
+<a id="paper2rebuttal"></a>
+
+### Paper2Rebuttal (2026)
+
+Survey / Review Automation · L2 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2601.14171)
+
+**Summary:** Multi-agent framework reframing rebuttal generation as evidence-centric planning task, decomposing feedback into atomic concerns and generating inspectable response plans before drafting.
+
+`rebuttal-generation` `evidence-centric` `multi-agent` `response-planning`
 
 ---
 
@@ -574,6 +672,20 @@ End-to-End Research Systems · L3 · Preprint
 
 ---
 
+<a id="paper2video"></a>
+
+### Paper2Video (2025)
+
+Research Infrastructure & Frameworks · L1 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2510.05096) · [Repo](https://github.com/showlab/Paper2Video)
+
+**Summary:** Multi-agent framework for academic presentation video generation, integrating slide generation with layout refinement, subtitling, speech synthesis, and talking-head rendering.
+
+`video-generation` `presentation` `multi-modal` `multi-agent`
+
+---
+
 <a id="shinkaevolve"></a>
 
 ### ShinkaEvolve (2025)
@@ -613,6 +725,20 @@ Experimentation & Agent Methods · L3 · Implement · Technical report
 **Summary:** A Gemini-powered evolutionary coding agent for discovering better algorithms and scientific solutions through repeated proposal, execution, and selection.
 
 `evolutionary-search` `coding-agent` `algorithm-discovery`
+
+---
+
+<a id="deepreview"></a>
+
+### DeepReview (2025)
+
+Survey / Review Automation · L1 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2503.08569) · [Project](http://ai-researcher.net)
+
+**Summary:** A multi-stage framework designed to emulate expert reviewers by incorporating structured analysis, literature retrieval, and evidence-based argumentation, training DeepReviewer-14B on DeepReview-13K dataset.
+
+`paper-review` `structured-analysis` `evidence-grounded` `multi-stage`
 
 ---
 
@@ -1100,6 +1226,20 @@ End-to-End Research Systems · L3 · Preprint
 
 ---
 
+<a id="agentreview"></a>
+
+### AgentReview (2024)
+
+Survey / Review Automation · L1 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2406.12708) · [Repo](https://github.com/Ahren09/AgentReview)
+
+**Summary:** LLM-based peer review simulation framework that disentangles impacts of multiple latent factors in the review process, revealing 37.1% variation in paper decisions due to reviewer biases.
+
+`peer-review-simulation` `reviewer-bias` `sociological-analysis` `privacy-preserving`
+
+---
+
 <a id="alphafold-3"></a>
 
 ### AlphaFold 3 (2024)
@@ -1111,6 +1251,20 @@ Experimentation & Agent Methods · L1 · Execute & Experiment · Journal
 **Summary:** A biomolecular structure and interaction prediction system that extends AlphaFold from protein folding to complexes involving proteins, nucleic acids, ligands, and ions.
 
 `protein-folding` `structure-prediction` `biomolecular-modeling`
+
+---
+
+<a id="reviewer2"></a>
+
+### Reviewer2 (2024)
+
+Survey / Review Automation · L1 · Write & Review · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2402.10886)
+
+**Summary:** Two-stage review generation framework that explicitly models the distribution of possible aspects the review may address, producing more detailed reviews that better cover human reviewer perspectives.
+
+`paper-review` `aspect-modeling` `coverage` `two-stage`
 
 ---
 
