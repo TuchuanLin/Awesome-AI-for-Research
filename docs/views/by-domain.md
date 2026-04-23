@@ -6,11 +6,11 @@ Use this page to find systems grouped by application domain.
 
 ## On this page
 
-- [Artificial Intelligence](#ai) (45)
+- [Artificial Intelligence](#ai) (47)
 - [Biomedical](#biomedical) (4)
 - [Chemistry](#chemistry) (2)
 - [Computer Science](#computer-science) (4)
-- [General](#general) (22)
+- [General](#general) (31)
 - [Materials Science](#materials-science) (2)
 - [Math](#math) (3)
 - [Physics](#physics) (2)
@@ -23,6 +23,7 @@ Applications in artificial intelligence research, machine learning research work
 
 | Work | Details | External |
 | --- | --- | --- |
+| EvoMaster (2026) | [Details](../catalog.md#evomaster) | [Paper](https://arxiv.org/abs/2604.17406) · [Repo](https://github.com/sjtu-sai-agents/EvoMaster) |
 | AiScientist (2026) | [Details](../catalog.md#aiscientist-long-horizon) | [Paper](https://arxiv.org/abs/2604.13018) |
 | AutoSOTA (2026) | [Details](../catalog.md#autosota) | [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/) |
 | PaperOrchestra (2026) | [Details](../catalog.md#paperorchestra) | [Paper](https://arxiv.org/abs/2604.05018) · [Project](https://yiwen-song.github.io/paper_orchestra/) |
@@ -42,6 +43,7 @@ Applications in artificial intelligence research, machine learning research work
 | DeepInnovator (2026) | [Details](../catalog.md#deepinnovator) | [Paper](https://arxiv.org/abs/2602.18920) · [Repo](https://github.com/HKUDS/DeepInnovator) |
 | InternAgent (2026) | [Details](../catalog.md#internagent) | [Paper](https://arxiv.org/abs/2602.08990) · [Repo](https://github.com/InternScience/InternAgent) |
 | PiEvo (2026) | [Details](../catalog.md#pievo) | [Paper](https://arxiv.org/abs/2602.06448) |
+| PaperBanana (2026) | [Details](../catalog.md#paperbanana) | [Paper](https://arxiv.org/abs/2601.23265) |
 | Towards Execution-Grounded Automated AI Research (2026) | [Details](../catalog.md#execution-grounded-ai-research) | [Paper](https://arxiv.org/abs/2601.14525) |
 | ARIS (2026) | [Details](../catalog.md#aris) | [Repo](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) |
 | AutoAgent (2026) | [Details](../catalog.md#autoagent) | [Repo](https://github.com/kevinrgu/autoagent/tree/main) |
@@ -119,10 +121,17 @@ Cross-domain or discipline-agnostic systems for AI-driven research workflows, li
 | Work | Details | External |
 | --- | --- | --- |
 | GIANTS (2026) | [Details](../catalog.md#giants) | [Paper](https://arxiv.org/abs/2604.09793) |
+| AutoFigure-Edit (2026) | [Details](../catalog.md#autofigure-edit) | [Paper](https://arxiv.org/abs/2603.06674) · [Repo](https://github.com/ResearAI/AutoFigure-Edit) · [Project](https://deepscientist.cc/) |
 | InternAgent (2026) | [Details](../catalog.md#internagent) | [Paper](https://arxiv.org/abs/2602.08990) · [Repo](https://github.com/InternScience/InternAgent) |
+| AutoFigure (2026) | [Details](../catalog.md#autofigure) | [Paper](https://arxiv.org/abs/2602.03828) · [Repo](https://github.com/ResearAI/AutoFigure) |
+| ScholarPeer (2026) | [Details](../catalog.md#scholarpeer) | [Paper](https://arxiv.org/abs/2601.22638) |
 | Learning to Discover at Test Time (2026) | [Details](../catalog.md#ttt-discover) | [Paper](https://doi.org/10.48550/arXiv.2601.16175) · [Project](https://test-time-training.github.io/discover/) |
+| RebuttalAgent (2026) | [Details](../catalog.md#rebuttal-agent) | [Paper](https://arxiv.org/abs/2601.15715) |
+| Paper2Rebuttal (2026) | [Details](../catalog.md#paper2rebuttal) | [Paper](https://arxiv.org/abs/2601.14171) |
 | Synthesizing scientific literature with retrieval-augmented language models (2026) | [Details](../catalog.md#openscholar) | [Paper](https://www.nature.com/articles/s41586-025-10072-4) · [Repo](https://github.com/AkariAsai/OpenScholar) · [Project](https://openscilm.allen.ai/) |
 | Kosmos (2025) | [Details](../catalog.md#kosmos) | [Paper](https://arxiv.org/abs/2511.02824) |
+| Paper2Video (2025) | [Details](../catalog.md#paper2video) | [Paper](https://arxiv.org/abs/2510.05096) · [Repo](https://github.com/showlab/Paper2Video) |
+| DeepReview (2025) | [Details](../catalog.md#deepreview) | [Paper](https://arxiv.org/abs/2503.08569) · [Project](http://ai-researcher.net) |
 | An AI system to help scientists write expert-level empirical software (2025) | [Details](../catalog.md#expert-level-empirical-software) | [Paper](https://arxiv.org/abs/2509.06503) |
 | Anthropic Agent Skills (2025) | [Details](../catalog.md#anthropic-agent-skills) | [Repo](https://github.com/anthropics/skills) · [Blog](https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills) |
 | InteractiveSurvey (2025) | [Details](../catalog.md#interactivesurvey) | [Paper](https://arxiv.org/abs/2504.08762) · [Repo](https://github.com/TechnicolorGUO/InteractiveSurvey) · [Project](https://technicolorguo.github.io/InteractiveSurvey/) |
@@ -130,6 +139,8 @@ Cross-domain or discipline-agnostic systems for AI-driven research workflows, li
 | SciMaster (2025) | [Details](../catalog.md#scimaster) | [Paper](https://arxiv.org/abs/2507.05241) · [Repo](https://github.com/sjtu-sai-agents/X-Master) · [Project](https://scimaster.bohrium.com/) |
 | SurveyX (2025) | [Details](../catalog.md#surveyx) | [Paper](https://arxiv.org/abs/2502.14776) · [Repo](https://github.com/IAAR-Shanghai/SurveyX) · [Project](https://www.surveyx.cn/) |
 | WebWeaver (2025) | [Details](../catalog.md#webweaver) | [Paper](https://arxiv.org/abs/2509.13312) · [Repo](https://github.com/Alibaba-NLP/DeepResearch) |
+| AgentReview (2024) | [Details](../catalog.md#agentreview) | [Paper](https://arxiv.org/abs/2406.12708) · [Repo](https://github.com/Ahren09/AgentReview) |
+| Reviewer2 (2024) | [Details](../catalog.md#reviewer2) | [Paper](https://arxiv.org/abs/2402.10886) |
 | AutoSurvey (2024) | [Details](../catalog.md#autosurvey) | [Paper](https://arxiv.org/abs/2406.10252) · [Repo](https://github.com/AutoSurveys/AutoSurvey) |
 | Aviary (2024) | [Details](../catalog.md#aviary) | [Paper](https://arxiv.org/abs/2412.21154) · [Repo](https://github.com/Future-House/aviary) |
 | DS-Agent (2024) | [Details](../catalog.md#ds-agent) | [Paper](https://proceedings.mlr.press/v235/guo24b.html) · [Repo](https://github.com/guosyjlu/DS-Agent) |
