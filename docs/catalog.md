@@ -4,6 +4,20 @@
 
 This page centralizes the detailed records referenced across section pages, grouped views, and benchmark indexes. Items are sorted newest-first.
 
+<a id="simpletes"></a>
+
+### SimpleTES (2026)
+
+Experimentation & Agent Methods · L3 · Execute & Experiment · Preprint
+
+**Links:** [Paper](https://arxiv.org/abs/2604.19341)
+
+**Summary:** A general framework (Simple Test-time Evaluation-driven Scaling) that strategically combines parallel exploration, feedback-driven refinement, and local selection for scaling evaluation-driven discovery loops.
+
+`evaluation-driven` `test-time-scaling` `parallel-exploration` `feedback-driven`
+
+---
+
 <a id="evomaster"></a>
 
 ### EvoMaster (2026)

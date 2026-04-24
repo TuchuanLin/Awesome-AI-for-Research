@@ -10,7 +10,7 @@ This view makes the role ladder tangible, from human-driven tools to AI-driven s
 
 - [L1 Tools](#l1-tools) (26)
 - [L2 Collaborators](#l2-collaborators) (30)
-- [L3 Systems](#l3-systems) (38)
+- [L3 Systems](#l3-systems) (39)
 
 <a id="l1-tools"></a>
 ## L1 Tools
@@ -95,6 +95,7 @@ AI drives the loop. The system owns substantial execution and iteration, while h
 
 | Work | Details | External |
 | --- | --- | --- |
+| SimpleTES (2026) | [Details](../catalog.md#simpletes) | [Paper](https://arxiv.org/abs/2604.19341) |
 | EvoMaster (2026) | [Details](../catalog.md#evomaster) | [Paper](https://arxiv.org/abs/2604.17406) · [Repo](https://github.com/sjtu-sai-agents/EvoMaster) |
 | AiScientist (2026) | [Details](../catalog.md#aiscientist-long-horizon) | [Paper](https://arxiv.org/abs/2604.13018) |
 | AutoSOTA (2026) | [Details](../catalog.md#autosota) | [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/) |
