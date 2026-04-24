@@ -10,7 +10,7 @@ Use this page when you want to find systems by the stage of research they most c
 - [Ideate](#ideate) (19)
 - [Plan & Design](#plan-design) (4)
 - [Implement](#implement) (14)
-- [Execute & Experiment](#execute-experiment) (31)
+- [Execute & Experiment](#execute-experiment) (32)
 - [Analyze & Visualize](#analyze-visualize) (12)
 - [Write & Review](#write-review) (14)
 
@@ -112,6 +112,7 @@ Running experiments, tool orchestration, adaptive retries, and lab-in-the-loop e
 
 | Work | Details | External |
 | --- | --- | --- |
+| SimpleTES (2026) | [Details](../catalog.md#simpletes) | [Paper](https://arxiv.org/abs/2604.19341) |
 | AutoSOTA (2026) | [Details](../catalog.md#autosota) | [Paper](https://arxiv.org/abs/2604.05550) · [Repo](https://github.com/tsinghua-fib-lab/AutoSOTA) · [Project](https://tsinghua-fib-lab.github.io/AutoSOTA/) |
 | CORAL (2026) | [Details](../catalog.md#coral) | [Paper](https://arxiv.org/abs/2604.01658) · [Repo](https://github.com/Human-Agent-Society/CORAL) |
 | Automated Weak-to-Strong Researcher (2026) | [Details](../catalog.md#automated-w2s-researcher) | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
